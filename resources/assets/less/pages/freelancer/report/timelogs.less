@@ -1,0 +1,85 @@
+@less: '../../../common';
+
+@import '@{less}/_variables.less';
+@import '@{less}/_mixins.less';
+@import '@{less}/_plugins.less';
+
+#date_range {
+  width: 330px;
+  float: left;
+  margin: 0px 2px;
+  input {
+    font-size: 20px;
+    border: none;
+  }
+}
+
+.prev-unit, .next-unit {
+  float: left;
+  padding: 8px 10px;
+  transition: all 0.3s linear;
+  &:hover {
+    text-decoration: none;
+    background: #ddd;
+  }
+}
+
+.weekly-summary-section {
+  .section {
+    margin: 30px 0px;
+    .section-title {
+      margin: 20px 0px;
+      padding: 0 0 10px;
+      font-size: 16px;
+      border-bottom: 1px solid #ddd;
+      color: #333;
+    }
+
+    .section-content {
+      padding: 20px 0px;
+      background: #eee;
+    }
+  }
+
+  .summary-section {
+    .info-line {
+      margin: 0px 0px 20px 0px;
+    }
+    .divider {
+      border-bottom: solid 1px #666;
+      height: 1px;
+      margin: 0px 15px;
+    }
+    .total-amount {
+      font-size: 24px;
+    }
+  }
+}
+.amount-display{
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-align: center;
+}
+.nav-tabs {
+  border-bottom: 1px solid #AAA;
+  li{
+    min-width: 25%;
+    a{
+      text-align: center;
+      min-height: 90px;
+      outline: none;
+    }
+  }  
+}
+.manual-alert{
+  text-align: right;
+  color: #999;
+  strong{
+    color: #666;
+  }
+}
+.empty-data-section{
+  text-align: center;
+  margin-top: 15px;
+}

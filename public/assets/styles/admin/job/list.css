@@ -1,0 +1,129 @@
+/**
+* Job - List
+*/
+/**
+ * Variables to use over whole less files.
+ */
+/**
+ * Variables to use over whole less files.
+ */
+/* Global */
+/**
+ * Mixins
+ */
+.strong {
+  font-weight: bold;
+}
+.iblock {
+  display: inline-block;
+}
+.pointer {
+  cursor: pointer;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+/* Job Query Form */
+.job-queries {
+  margin: 18px 0 12px 0;
+}
+.job-queries .jkeyword {
+  margin-right: 6px;
+  width: 60%;
+  padding: 0 8px;
+}
+.job-queries .btn-search {
+  font-weight: bold;
+  padding: 0 16px;
+}
+.job-queries .high {
+  min-height: 34px;
+}
+.job-queries .adv-search {
+  margin-left: 10px;
+}
+/* Job Search Results */
+.job-results .pagi {
+  margin: 0 12px 10px;
+}
+.job-results .pagi .total {
+  padding-top: 8px;
+}
+.job-results .job-items {
+  /* Applicants */
+  /*
+    &.private {
+      background-color: #F9F9B9;
+      .skill-item {
+        background-color: #EAEFAA;
+      }
+    }
+
+    &.closed {
+      background-color: #E8E8E8;
+    }
+    */
+}
+.job-results .job-items .jpanel.open .closed-only {
+  display: none;
+}
+.job-results .job-items .jpanel.closed .open-only {
+  display: none;
+}
+.job-results .job-items .jpanel.closed,
+.job-results .job-items .jpanel.closed .panel-heading,
+.job-results .job-items .jpanel.closed .panel-footer {
+  background-color: #afafaf;
+}
+.job-results .job-items .panel-heading {
+  background-color: #fff;
+  padding: 2px 12px;
+}
+.job-results .job-items .panel-heading .job-avatar > img {
+  border: 1px solid #ccc;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  margin: 0 4px 2px 0;
+}
+.job-results .job-items .panel-heading > h4 {
+  font-weight: bold;
+  display: inline-block;
+}
+.job-results .job-items .panel-body p:last-child {
+  margin-bottom: 0;
+}
+.job-results .job-items .panel-body .more {
+  text-decoration: underline;
+}
+.job-results .job-items .panel-body .activity-info > p {
+  margin-bottom: 4px;
+}
+.job-results .job-items .panel-footer {
+  background-color: #fff;
+}
+.job-results .job-items .btn-job-action {
+  margin-top: 8px;
+  padding: 2px 6px;
+  min-width: 60px;
+}
+.job-results .job-items .meta {
+  margin: 0 0 10px 0;
+}
+.job-results .job-items i.is-closed {
+  font-weight: normal;
+}
+.job-results .job-items .skill-wrp {
+  margin-right: 10px;
+}
+.job-results .job-items .skill-wrp .skill-item {
+  padding: 2px 6px;
+  background-color: #ddd;
+  margin: 0 4px;
+}
+.job-footer .skills {
+  margin-left: 10px;
+}

@@ -1,0 +1,134 @@
+.form-section .section {
+  margin-bottom: 30px;
+}
+.section-content {
+  padding: 5px 10px;
+  border: solid 1px #e8e8e8;
+}
+.section-content .object-item {
+  padding: 10px 0px;
+  border-top: solid 1px #e8e8e8;
+  margin: 0px;
+}
+.section-content .object-item.first {
+  border-top: none;
+}
+.job-title {
+  color: #008bcc;
+  font-size: 18px;
+  font-weight: bold;
+}
+.job-info {
+  text-align: center;
+  padding: 5px 0px;
+}
+.job-info .job-info-value {
+  font-size: 16px;
+  font-weight: bold;
+}
+.job-status {
+  padding: 15px 0px;
+}
+.job-status.status-public {
+  color: #008bcc;
+}
+.job-status.status-private {
+  color: #e8c16d;
+}
+.job-action {
+  padding-top: 5px;
+}
+.all-job-postings {
+  margin: 15px 0px;
+}
+.not-hired,
+.empty-jobs {
+  font-size: 18px;
+  padding: 10px 0px;
+}
+.selectpicker.btn i {
+  margin-top: 2px;
+  margin-right: 10px;
+}
+.bootstrap-select .dropdown-menu .placeholder {
+  display: none;
+}
+.bootstrap-select .dropdown-menu .job-action-link {
+  padding: 10px 20px;
+}
+.bootstrap-select .dropdown-menu .job-action-link i {
+  margin-top: 2px;
+  margin-right: 10px;
+}
+.contracts .section-content {
+  padding: 0px;
+}
+.contracts .section-content .project-item {
+  padding: 10px 15px;
+  border-top: solid 1px #ddd;
+  border-bottom: solid 1px #ddd;
+  background: #f5f5f5;
+}
+.contracts .section-content .project-item:first-child {
+  border-top: none;
+}
+.contracts .section-content .user-avatar {
+  position: absolute;
+}
+.contracts .section-content ul.contract-list {
+  padding: 0px;
+  margin: 0px;
+}
+.contracts .section-content ul.contract-list .contract-item {
+  padding: 20px 10px 20px 10px;
+  border-bottom: solid 1px #ddd;
+}
+.contracts .section-content ul.contract-list .contract-item:last-child {
+  border-bottom: none;
+}
+.contracts .section-content ul.contract-list .contract-item .contract-item-section {
+  margin-left: 74px;
+}
+.contracts .section-content ul.contract-list .contract-item .contract-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.contracts .section-content ul.contract-list .contract-item .contract-type {
+  line-height: 24px;
+}
+.contracts .section-content ul.contract-list .contract-item .contract-type .price {
+  font-weight: bold;
+}
+.contracts .section-content ul.contract-list .contract-item .contractor-info {
+  line-height: 24px;
+}
+.contracts .section-content ul.contract-list .contract-item .contractor-info .contractor-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+.contracts .section-content ul.contract-list .contract-item .contract-actions {
+  margin-top: 5px;
+  line-height: 24px;
+}
+.contracts .section-content ul.contract-list .contract-item .this-week-time {
+  line-height: 24px;
+}
+.contracts .section-content ul.contract-list .contract-item .this-week-total {
+  line-height: 24px;
+  font-size: 16px;
+}
+.contracts .section-content ul.contract-list .contract-item .workdiary-action {
+  line-height: 24px;
+  margin-top: 5px;
+}
+.contracts .section-content ul.contract-list .contract-item .workdiary-action a.btn {
+  color: #008bcc;
+  border: solid 1px #eee;
+}
+.contracts .section-content ul.contract-list .contract-status {
+  margin: 5px 0px;
+}
+.contracts .section-content ul.contract-list .contract-status.status-paused {
+  color: red;
+}

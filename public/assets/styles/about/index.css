@@ -1,0 +1,198 @@
+/**
+ * Home Page
+ */
+/** From Metronic material design3 {{{ **/
+/** }}} **/
+.page {
+  /*About us styles*/
+  /*Our Team styles*/
+  /*Press Page */
+}
+.page .bg-primary {
+  padding: 86px 0 93px;
+  background-color: #008BCC;
+}
+.page .bg-primary .block-link {
+  border: 2px solid #fff;
+  padding: 8px 38px;
+  color: #fff;
+  display: inline-block;
+}
+.page p {
+  font-size: 16px;
+}
+.page .about-icon {
+  margin: 50px auto 30px auto;
+}
+.page .about-icon span:before {
+  color: #008BCC;
+  font-size: 50px;
+  border-bottom: 2px solid #e0e0e0;
+  padding: 10px;
+}
+.page .investors {
+  background-color: #f9f9f9;
+}
+.page .investors h2 {
+  padding: 79px 0 193px;
+  font-size: 40px;
+  color: #494949;
+  max-width: 1280px;
+  background-position: 0 197px;
+  background-repeat: no-repeat;
+  background-image: url("/assets/images/about/team/investor-logos.jpg");
+  background-size: 100%;
+  letter-spacing: -0.3px;
+  font-family: 'Gotham Bold';
+}
+.page .top-about-menu {
+  max-width: 960px;
+  border-bottom: 1px solid #e0e0e0;
+  margin: 0 auto 50px auto;
+  height: 100%;
+  line-height: 68px;
+  text-align: center;
+}
+.page .top-about-menu ul {
+  margin: 0 20px 0 0;
+  padding: 0;
+  display: inline-block;
+  white-space: nowrap;
+}
+.page .top-about-menu ul .top-about-item {
+  padding: 0;
+  margin: 0 20px;
+  display: inline-block;
+  position: relative;
+}
+.page .top-about-menu ul .top-about-item.active:after {
+  content: "";
+  height: 4px;
+  border-bottom: 4px solid #008BCC;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+}
+.page .top-about-menu ul .top-about-item:hover:after {
+  content: "";
+  height: 4px;
+  border-bottom: 4px solid #008BCC;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+}
+.page .top-about-menu ul .top-about-item a:hover {
+  text-decoration: none;
+}
+.page h2 {
+  font-family: 'myriadpro-boldcond';
+  font-size: 48px;
+  margin: 0;
+  text-shadow: 0 0 3px #bbb;
+}
+.page h2.on-bg {
+  background: rgba(0, 0, 0, 0.15);
+  margin-top: 150px;
+  font-size: 56px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px black;
+}
+.page .desc {
+  margin-top: 20px;
+  font-family: 'myriadpro-cond';
+  font-size: 24px;
+  color: #555;
+}
+.page .team .team-img {
+  width: 148px;
+  height: 148px;
+}
+.page .team p:last-child {
+  margin-bottom: 75px;
+}
+.page .center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page .img-circle {
+  border-radius: 50%;
+}
+.page .stephane {
+  background: url('/assets/images/about/team/stephane-kasriel.jpg') no-repeat;
+}
+.page .brian {
+  background: url('/assets/images/about/team/brian-levey.jpg') no-repeat;
+}
+.page .thomas {
+  background: url('/assets/images/about/board/thomas-layton.jpg') no-repeat;
+}
+.page .betsey {
+  background: url('/assets/images/about/board/betsey-nelson.jpg') no-repeat;
+}
+.page .about-bg {
+  background: url('/assets/images/about/about-us.jpg') no-repeat;
+  width: 100%;
+  height: 17.3vw;
+  max-height: 330px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  margin-top: 50px;
+  margin-bottom: 78px;
+}
+.page .about-bottom {
+  background-color: #008BCC;
+  color: #fff;
+  padding: 66px 0 75px 0;
+}
+.page .about-bottom .block-link {
+  border: 2px solid #fff;
+  padding: 8px 38px;
+  color: #fff;
+  display: inline-block;
+}
+.page .about-bottom strong {
+  color: #00C2DC;
+  font-size: 40px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 27px;
+}
+.page .about-bottom strong:after {
+  display: inline-block;
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 50%;
+  margin-top: 7px;
+  margin-left: -40px;
+  width: 80px;
+  border-bottom: 2px solid #fff;
+}
+.page .about-bottom p {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 0;
+}
+.page .media-resource {
+  background-color: #f9f9f9;
+}
+.page .media-resource h2 {
+  padding-top: 50px;
+  padding-bottom: 75px;
+  font-size: 40px;
+  color: #494949;
+  max-width: 1280px;
+  font-family: 'Gotham Bold';
+}
+.page .press-releases article {
+  height: 350px;
+  padding: 1.59091rem 1.59091rem 1.81818rem 1.81818rem;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 30px;
+  position: relative;
+}

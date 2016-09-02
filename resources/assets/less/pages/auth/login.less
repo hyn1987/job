@@ -1,0 +1,31 @@
+@less: '../../common';
+
+@import '@{less}/_variables.less';
+@import '@{less}/_mixins.less';
+@import '@{less}/_plugins.less';
+
+.login-box {
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+
+  @media (min-width: 480px) {
+  }
+
+  .login-title {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+.page.auth-login {
+  .right-menu {
+    float: right;
+    padding-top: 10px;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0px;
+  }
+}

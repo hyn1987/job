@@ -1,0 +1,18 @@
+.balance {
+  font-size: 18px;
+  margin-top: 8px;
+}
+.summary-section {
+  margin-bottom: 50px;
+  font-size: 16px;
+}
+.summary-section .charge-action {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.form-label {
+  margin-bottom: 10px;
+}
+.charge-amount-field {
+  width: 200px;
+}

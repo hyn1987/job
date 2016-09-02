@@ -1,0 +1,110 @@
+/** From Metronic material design3 {{{ **/
+/** }}} **/
+.application-section .section {
+  padding: 0px 25px;
+  margin-bottom: 20px;
+}
+.application-section .application-info {
+  padding-left: 84px;
+  width: 100%;
+}
+.application-section .application-info .user-name {
+  font-size: 28px;
+  overflow: hidden;
+}
+.application-section .application-info .user-title {
+  font-size: 20px;
+  line-height: 32px;
+}
+.application-section .application-info .user-skill {
+  margin-top: 20px;
+}
+.application-section .application-info .application-status {
+  display: inline-block;
+  padding: 5px;
+  margin-top: 10px;
+}
+.application-section .application-info .application-status.status-invited {
+  background: #1bbc9b;
+  color: white;
+}
+.application-section .application-info .application-status .status {
+  font-weight: bold;
+}
+.application-section .sub-section .title {
+  font-size: 13px;
+  font-weight: normal;
+  margin: 10px 0px;
+}
+.application-section .section-title {
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.application-section .btn-send-message {
+  padding: 7px 25px;
+  border: solid 1px #ccc;
+}
+.message-section {
+  margin-bottom: 50px;
+}
+.message-section .panel {
+  margin: 0px;
+}
+.message-section .panel .panel-heading {
+  padding: 0px;
+}
+.message-section .panel .panel-heading .panel-title > a {
+  padding: 10px 15px;
+  display: block;
+  font-size: 14px;
+}
+.message-section .panel .panel-heading .panel-title > a:hover,
+.message-section .panel .panel-heading .panel-title > a:visited,
+.message-section .panel .panel-heading .panel-title > a:focus {
+  text-decoration: none;
+}
+.message-section .panel .panel-body {
+  padding: 5px 15px;
+}
+.message-section .message-item {
+  position: relative;
+  padding: 10px 0px;
+}
+.message-section .message-item .message-content {
+  width: 100%;
+  padding-top: 5px;
+  padding-left: 60px;
+  padding-right: 100px;
+  min-height: 40px;
+}
+.message-section .message-item .message-content .message-text {
+  margin: 5px 0px;
+}
+.message-section .message-item .message-timestamp {
+  position: absolute;
+  right: 2px;
+  top: 15px;
+}
+.applicant-info {
+  margin-top: 10px;
+}
+.applicant-info .make-offer.btn {
+  display: block;
+  padding: 16px 0px;
+  width: 100%;
+}
+.applicant-info .sub-section {
+  margin-bottom: 20px;
+}
+.applicant-info .sub-section .title {
+  font-size: 16px;
+  font-weigth: bold;
+}
+.applicant-info .sub-section .info-item {
+  line-height: 40px;
+}
+.applicant-info .archive-message {
+  border-bottom: solid 1px #ccc;
+  padding: 10px;
+}

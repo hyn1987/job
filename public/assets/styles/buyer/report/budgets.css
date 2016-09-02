@@ -1,0 +1,32 @@
+.strong {
+  font-weight: bold;
+}
+.iblock {
+  display: inline-block;
+}
+.pointer {
+  cursor: pointer;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.balance {
+  font-size: 18px;
+  margin-top: 8px;
+}
+.summary-section {
+  margin-bottom: 50px;
+  font-size: 16px;
+}
+.summary-section .charge-action {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.transactions-section .section-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px 0px;
+}

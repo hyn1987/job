@@ -1,0 +1,76 @@
+.strong {
+  font-weight: bold;
+}
+.iblock {
+  display: inline-block;
+}
+.pointer {
+  cursor: pointer;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.no-applicants-message {
+  padding: 20px 10px;
+  font-size: 18px;
+}
+.applicant-row {
+  padding: 40px 0px;
+}
+.applicant-row .user-avatar {
+  position: absolute;
+}
+.applicant-row .applicant-info {
+  padding-left: 84px;
+  width: 100%;
+}
+.applicant-row .applicant-info .user-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #008bcc;
+}
+.applicant-row .applicant-info .user-title {
+  font-size: 20px;
+  line-height: 32px;
+}
+.applicant-row .applicant-info .application-info {
+  margin-top: 10px;
+}
+.applicant-row .applicant-info .application-status {
+  display: inline-block;
+  padding: 5px;
+  margin-top: 10px;
+}
+.applicant-row .applicant-info .application-status.status-invited {
+  background: #1bbc9b;
+  color: white;
+}
+.applicant-row .applicant-info .application-status .status {
+  font-weight: bold;
+}
+.applicant-row .applicant-info .cover-letter {
+  margin-bottom: 10px;
+}
+.applicant-row .applicant-info .user-skill {
+  margin-top: 20px;
+}
+.applicant-row .applicant-info .action-section {
+  text-align: right;
+}
+.applicant-row .applicant-info .action-section .action-links {
+  margin-bottom: 10px;
+}
+.applicant-row .applicant-info .action-section .action-links a {
+  margin-left: 20px;
+  border: solid 1px #ccc;
+}
+.applicant-row .applicant-info .action-section .price {
+  font-size: 18px;
+  font-weight: bold;
+}
+.applicant-row .applicant-info .action-section .make-offer-action {
+  margin-top: 40px;
+}

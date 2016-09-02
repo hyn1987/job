@@ -1,0 +1,233 @@
+/**
+* Skill List
+*/
+/**
+ * Variables to use over whole less files.
+ */
+/**
+ * Variables to use over whole less files.
+ */
+/* Global */
+/**
+ * Mixins
+ */
+.strong {
+  font-weight: bold;
+}
+.iblock {
+  display: inline-block;
+}
+.pointer {
+  cursor: pointer;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.notifications > li {
+  position: relative;
+  display: block;
+  background: white;
+  border: none;
+  margin: 0 0 10px 0;
+  padding: 12px 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  min-width: 150px;
+  -webkit-transition: background 0.3s ease;
+  -o-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+.notifications > li .msgs > ul {
+  display: block;
+  padding-top: 10px;
+  margin-top: 10px;
+  border-top: 1px solid #eee;
+}
+.notifications > li .msgs > ul > li {
+  position: relative;
+  padding-left: 48px;
+  margin-bottom: 5px;
+}
+.notifications > li .msgs > ul > li span.label {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 43px;
+}
+.notifications > li .msgs > ul > li span.label.right {
+  right: 0;
+  left: auto;
+}
+.notifications > li .msgs > ul > li .msg {
+  min-height: 20px;
+}
+.notifications > li .msgs > ul > li button {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.notifications > li .msgs > ul > li:last-child {
+  margin-bottom: 0;
+}
+.notifications > li .header .title {
+  font-size: 16px;
+  color: #44b6ae;
+}
+.notifications > li .header .type {
+  position: absolute;
+  border-radius: 50%;
+  right: -9px;
+  top: -6px;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  text-align: center;
+}
+.notifications > li .header .type i {
+  color: white;
+}
+.notifications > li .header .type.normal {
+  background-color: #449d44;
+}
+.notifications > li .header .type.normal i {
+  /*margin-left: 5px;*/
+}
+.notifications > li .header .type.system {
+  background-color: #449d44;
+}
+.notifications > li .header .type.system i {
+  /*margin-left: 2px;*/
+}
+.notifications > li .header .type.const {
+  background-color: #e35b5a;
+}
+.notifications > li .header .type.const i {
+  /*margin-left: 3px;*/
+}
+.notifications > li .header .actions {
+  position: absolute;
+  right: 35px;
+  top: 10px;
+}
+.notifications > li .btn {
+  border-radius: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+}
+.notifications > li.editing {
+  min-height: 220px;
+}
+.notifications > li.editing .header .type {
+  display: none;
+}
+.notifications > li.editing .edit-form {
+  position: absolute;
+  background: #ffffb1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-height: 200px;
+  padding: 12px 15px;
+  z-index: 100;
+}
+.notifications > li.editing .edit-form input {
+  background: none;
+  border: none;
+  border-bottom: 1px dotted #44b6ae;
+  outline: none;
+  width: 100%;
+  padding-right: 140px;
+}
+.notifications > li.editing .edit-form input.error {
+  border-color: red;
+}
+.notifications > li.editing .edit-form input.is-system {
+  width: 10px;
+  vertical-align: top;
+}
+.notifications > li.editing .edit-form label {
+  margin: 0;
+  font-weight: normal;
+}
+.notifications > li.editing .edit-form .msgs > ul {
+  border-top: none;
+  margin-top: 0;
+}
+.notifications > li.editing .edit-form .msgs > ul > li {
+  padding: 0;
+}
+.notifications > li.editing .edit-form .msgs > ul > li span.label {
+  font-size: 13px;
+  width: 75px;
+  cursor: pointer;
+}
+.notifications > li.editing .edit-form .slug input {
+  font-size: 16px;
+}
+.notifications > li.editing .edit-form .slug input.disabled {
+  color: #ccc;
+}
+.notifications > li.editing .edit-form .languages {
+  height: 200px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.notifications > li.editing .edit-form .languages > ul {
+  padding: 10px;
+}
+.notifications > li.editing .edit-form .languages > ul > li {
+  position: relative;
+  padding-left: 48px;
+}
+.notifications > li.editing .edit-form textarea {
+  background: none;
+  border: 1px dotted #44b6ae;
+  width: 100%;
+  height: 150px;
+  padding: 15px;
+  margin-top: 10px;
+  outline: none;
+  resize: none;
+}
+.notifications > li.editing .edit-form .actions {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background-color: #ffffb1;
+  padding: 5px 0 0 10px;
+}
+.language-code {
+  display: none;
+  position: absolute;
+  padding: 0 15px;
+  right: 0px;
+  z-index: 101;
+}
+.language-code .languages {
+  background: #fff;
+  display: inline-block;
+  padding: 6px;
+}
+.language-code .languages > ul > li {
+  float: left;
+  padding: 1px;
+}
+.language-code .languages > ul > li span.label-primary {
+  width: 70px;
+  display: block;
+  background-color: #3A4656;
+  cursor: pointer;
+}
+.language-code .languages > ul > li.selected span.label-primary {
+  background-color: #337ab7;
+}

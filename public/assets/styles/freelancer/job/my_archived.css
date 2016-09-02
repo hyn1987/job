@@ -1,0 +1,63 @@
+.page-content-section .title {
+  font-size: 22px;
+  color: #666666;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.page-content-section .page-navs {
+  padding: 3px 0;
+  border-bottom: 1px solid #ddd;
+}
+.page-content-section .page-navs .tab {
+  padding: 5px 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px 5px 0 0;
+  border-bottom: none;
+  text-decoration: none;
+  background-color: #ddd;
+  color: #23527C;
+  outline: none;
+  letter-spacing: 1px;
+}
+.page-content-section .page-navs .active {
+  border-bottom: 1px solid #fff;
+  color: #666;
+  background-color: #fff;
+  padding: 5px 20px;
+}
+.page-content-section .section {
+  padding: 20px 0 0;
+  margin-bottom: 20px;
+}
+.page-content-section .section .title-section {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+.page-content-section .section .item-header {
+  padding-bottom: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.page-content-section .box-section {
+  background: #F4F9ED;
+  padding: 10px 0px;
+  border: solid 1px #ddd;
+}
+.page-content-section .box-section .empty-content {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #666;
+  font-weight: bold;
+}
+.page-content-section .box-section .active-item {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+.page-content-section .box-section .active-item:last-child {
+  border-bottom: none;
+}

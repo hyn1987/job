@@ -1,0 +1,54 @@
+/** From Metronic material design3 {{{ **/
+/** }}} **/
+#date_range {
+  width: 260px;
+  float: left;
+  margin: 0px 2px;
+}
+.prev-unit,
+.next-unit {
+  float: left;
+  padding: 8px 10px;
+  transition: all 0.3s linear;
+}
+.prev-unit:hover,
+.next-unit:hover {
+  text-decoration: none;
+  background: #ddd;
+}
+.contract-filter-section {
+  padding-left: 340px;
+  width: 100%;
+}
+.contract-filter-section .dropdown-menu .filter-item {
+  padding: 5px 10px;
+}
+.contract-filter-section .dropdown-menu .project-filter {
+  font-weight: bold;
+  background: #ddd;
+}
+.contract-filter-section .dropdown-menu .contract-filter {
+  padding-left: 30px;
+}
+.contract-filter-section .btn.selectpicker {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.report-mode-section {
+  margin: 10px 0px 30px;
+}
+.report-mode-section .mode-item {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0px;
+  background: #ddd;
+  cursor: pointer;
+  font-weight: bold;
+}
+.report-mode-section .mode-item.active {
+  background: #008bcc;
+  color: white;
+}
+.timesheet-section table thead th {
+  font-weight: bold;
+}

@@ -1,0 +1,79 @@
+/** From Metronic material design3 {{{ **/
+/** }}} **/
+.view-section .section {
+  margin-bottom: 20px;
+}
+.client-info {
+  margin-top: 10px;
+  padding: 10px 0px;
+  line-height: 18px;
+  border-top: solid 1px #ddd;
+}
+.client-info .sub-section {
+  padding: 10px 0px;
+}
+.project-category {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background: #e0e0e0;
+}
+.past-time {
+  padding: 5px 10px;
+}
+.project-type-info {
+  line-height: 20px;
+}
+.multi-freelancer-needed span {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: #008bcc;
+  color: #fff;
+  font-weight: bold;
+}
+.project-skills .skill-label {
+  padding: 5px 0px;
+  margin-right: 10px;
+}
+.project-skills .skill {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background: #e0e0e0;
+}
+.display-info {
+  color: #888;
+  line-height: 24px;
+  height: 24px;
+  letter-spacing: 0.5px;
+}
+.display-info span {
+  color: #333;
+}
+.applicant {
+  padding: 0 0 10px;
+}
+.applicant .title {
+  font-weight: bold;
+  color: #008BCC;
+}
+.applicant .help-content {
+  margin-top: 5px;
+}
+.applicant-item {
+  border-top: 1px solid #ddd;
+  padding: 10px 0;
+}
+.applicant-item .name {
+  color: #008BCC;
+}
+.applicant-header-item {
+  padding: 20px 0;
+  color: #333;
+  font-weight: bold;
+}
+#proposalHeading a {
+  outline: none;
+  text-decoration: none;
+  font-weight: bold;
+}

@@ -1,0 +1,59 @@
+.view-section .title-section .title {
+  margin: 20px 0 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #666;
+}
+.view-section .search-section {
+  margin: 20px 0 40px;
+}
+.view-section .search-section input {
+  width: 24%;
+  min-width: 160px;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #888;
+}
+.view-section .list-header {
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+  padding: 5px 10px;
+}
+.view-section .box-section {
+  background: #F4F9ED;
+  padding: 0px;
+  border: solid 1px #ddd;
+}
+.view-section .list-body:last-child {
+  border-bottom: none;
+}
+.view-section .list-body {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+.view-section .list-body .subject {
+  color: #008BCC;
+  font-weight: bold;
+  font-size: 16px;
+}
+.view-section .list-body .subject .details {
+  color: #888;
+  font-weight: normal;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.view-section .list-body .terms {
+  color: #666;
+  font-size: 12px;
+}
+.view-section .list-body .period {
+  color: #666;
+  font-size: 12px;
+}
+.view-section .list-body.closed-job {
+  background: #D0D0D0;
+}
+.view-section .pagination {
+  float: right;
+}

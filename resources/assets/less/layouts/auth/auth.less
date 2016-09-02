@@ -1,0 +1,86 @@
+@import '../_default.less';
+
+/**
+ * Auth Layout
+ */
+
+.layout-auth {
+
+  // Header
+  .page-header {
+    border: none;
+    margin-top: 100px;
+    z-index: 20;
+    .fixed;
+    width: 100%;
+
+    .page-logo {
+      float: none;
+      display: block;
+      margin: 0 auto;
+      color: #fff;
+      font-size: 32px;
+      > span {
+        color: #6ED079;
+      }
+    }
+  }
+
+  // Content
+  @pageContentWidth: 400px;
+  .page-content {
+    background-color: #fff;
+    .border-radius(6px);
+    .box-shadow(1px 1px 3px 3px #0D2327);
+    padding: 15px;
+    width: @pageContentWidth;
+    left: 50%;
+    top: 150px;
+    margin-left: -@pageContentWidth/2;
+    position: fixed;
+    z-index: 20;
+  }
+
+  .page-footer {
+    background: none;
+    border: none;
+    padding: 0;
+    z-index: 16;
+    .fixed;
+    bottom: 0;
+
+    .copyright {
+      border: none;
+      padding: 20px 10px;
+      color: #999;
+    }
+  }
+
+  h4 {
+    margin-bottom: 30px;
+    font-family: 'myriadpro-cond';
+    font-size: 22px;
+    text-align: center;
+    color: #555;
+  }
+}
+
+.page-auth-login {
+  background: url(/assets/images/tmp/login.jpg) no-repeat;
+  
+  &:before {
+    .fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    content: ' ';
+    background-color: fade(black, 80%);
+  }
+
+  .page-footer {
+    .copyright {
+      color: #ccc;
+    }
+  }  
+}

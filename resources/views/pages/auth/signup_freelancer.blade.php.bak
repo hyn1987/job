@@ -1,0 +1,104 @@
+@extends('layouts/auth/signup')
+
+@section('content')
+<div id="main_body" class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+            <div class="summary-block">
+                <div class="text-center title_1">{{ trans('page.auth.signup.freelancer.create')}}</div>
+                <div class="content-block">
+                    <div class="text-center content_12">{{ trans('page.auth.signup.freelancer.looking_hire')}}? <a href="{{ route('user.signup.buyer') }}">{{ trans('page.auth.signup.freelancer.client')}}</a></div>
+                    <div class="text-center content_12">{{ trans('page.auth.signup.with')}} <a href="javascript:void(0);" onclick="gotoFacebookSignUp();">{{ trans('page.auth.social.facebook')}}</a><span>, </span><a href="javascript:void(0);" onclick="gotoLinkedinSignUp();">{{ trans('page.auth.social.linkedin')}}</a><span>, <span>{{ trans('page.auth.or')}} <a href="javascript:void(0);" onclick="gotoGoogleSignUp();">{{ trans('page.auth.social.google')}}</a></div>
+                </div>
+            </div>
+            <div id="register_panel">
+                <form id="frm_register" method="post" action="{{ route('user.signup.freelancer') }}">
+                    <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                    <div class="alert alert-danger display-hide">
+                        <button class="close" data-close="alert"></button>
+                        {{ trans('page.auth.signup.error')}}
+                    </div>
+                    <fieldset>
+                        <input type="hidden" name="UserType" id="UserType" value="2">
+                        {{-- First name --}}
+                        <div class="row form-group">
+                            <label class="col-sm-4">{{ trans('page.auth.signup.first_name')}}</label>
+                            <div class="col-sm-8">
+                                <input type="text" data-required="1" class="form-control" id="FirstName" name="first_name" value="{{ old('first_name') }}" data-rule-required="true">
+                            </div>
+                        </div>
+                        {{-- Last name --}}
+                        <div class="row form-group">
+                            <label class="col-sm-4">{{ trans('page.auth.signup.last_name')}}</label>
+                            <div class="col-sm-8">
+                                <input type="text" data-required="1" class="form-control" id="LastName" name="last_name" value="{{ old('last_name') }}" data-rule-required="true">
+                            </div>
+                        </div>
+                        {{-- Email --}}
+                        <div class="row form-group">
+                            <label class="col-sm-4">{{ trans('page.auth.signup.email')}}</label>
+                            <div class="col-sm-8">
+                                <input type="email" class="form-control" id="Email" name="email" value="{{ old('email') }}" data-rule-required="true" data-rule-email="true">
+                            </div>
+                        </div>
+                        {{-- Country --}}
+                        <div class="row form-group">
+                            <label class="col-sm-4">{{ trans('page.auth.signup.select_country')}}</label>
+                            <div class="col-sm-8">
+                                <select name="country" id="SelectCountry" class="form-control select2">
+                                    @foreach ($countries as $country)
+                                    <option value="{{ $country->charcode }}"{{ $country->charcode == $defaults['country'] ? ' selected' : '' }}>{{ $country->name }}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+                        </div>
+                        {{-- Username --}}
+                        <div class="row form-group">
+                            <label class="col-sm-4">{{ trans('page.auth.signup.username')}}</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="UserID" name="username" value="{{ old('username') }}" autocomplete="off" data-rule-required="true">
+                            </div>
+                        </div>
+                        {{-- Password --}}
+                        <div class="row form-group">
+                            <label class="col-sm-4">{{ trans('page.auth.signup.password')}}</label>
+                            <div class="col-sm-8">
+                                <input type="password" class="form-control" id="Password" name="password" autocomplete="off" data-rule-required="true" data-rule-minlength="1">
+                            </div>
+                        </div>
+                        {{-- Confirm Password --}}
+                        <div class="row form-group">
+                            <label class="col-sm-4">{{ trans('page.auth.signup.confirm_password')}}</label>
+                            <div class="col-sm-8">
+                                <input type="password" class="form-control" id="Password2" name="password2" autocomplete="off" data-rule-required="true" data-rule-equalto="#Password"> 
+                            </div>
+                        </div>
+                        {{-- Question --}}
+                        <div class="row form-group">
+                            <label class="col-sm-4">{{ trans('page.auth.signup.hear_about_wawjob') }}</label>
+                            <div class="col-sm-8">
+                                <select name="selectquestion" id="SelectQuestion" class="select2 form-control">
+                                    @foreach ($how_hear_options as $label => $v)
+                                    <option value="{{ $v }}"{{ $v == $defaults['how_hear'] ? ' selected' : '' }}>{{ $label }}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+                        </div>
+                        {{-- Re-captcha --}}
+                        <div class="row form-group">
+                            <label class="col-sm-4">{{ trans('page.auth.signup.type')}}</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="Captha" name="captha">
+                            </div>
+                        </div>
+                        {{-- Submit button --}}
+                        <div class="form-group form-actions">
+                            <button type="submit" class="btn btn-primary center-align">{{ trans('page.auth.signup.started')}}</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection

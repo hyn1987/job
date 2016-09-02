@@ -1,0 +1,71 @@
+.strong {
+  font-weight: bold;
+}
+.iblock {
+  display: inline-block;
+}
+.pointer {
+  cursor: pointer;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.no-applicants-message {
+  padding: 20px 10px;
+  font-size: 18px;
+}
+.applicant-row {
+  padding: 40px 0px;
+}
+.applicant-row .user-avatar {
+  position: absolute;
+}
+.applicant-row .applicant-info {
+  padding-left: 84px;
+  width: 100%;
+}
+.applicant-row .applicant-info .user-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #008bcc;
+}
+.applicant-row .applicant-info .user-title {
+  font-size: 20px;
+  line-height: 32px;
+}
+.applicant-row .applicant-info .contract-status {
+  display: inline-block;
+  padding: 5px;
+  margin-top: 10px;
+}
+.applicant-row .applicant-info .contract-status.status-offer {
+  background: #8775a7;
+  color: white;
+}
+.applicant-row .applicant-info .contract-status.status-hired {
+  background: #008bcc;
+  color: white;
+}
+.applicant-row .applicant-info .contract-status .status {
+  font-weight: bold;
+}
+.applicant-row .applicant-info .user-skill {
+  margin-top: 20px;
+}
+.applicant-row .applicant-info .action-section {
+  text-align: right;
+}
+.applicant-row .applicant-info .action-section .application-status {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.applicant-row .applicant-info .action-section .price {
+  font-size: 18px;
+  font-weight: bold;
+}
+.applicant-row .applicant-info .action-links {
+  margin: 15px 0px 10px;
+}

@@ -1,0 +1,210 @@
+/**
+* Skill List
+*/
+/**
+ * Variables to use over whole less files.
+ */
+/**
+ * Variables to use over whole less files.
+ */
+/* Global */
+/**
+ * Mixins
+ */
+.portlet.block {
+  margin: 10px 0;
+}
+.portlet.block .user-search {
+  text-align: center;
+}
+.portlet.block .portlet.notification .portlet-title {
+  background: #758BA9;
+  border-radius: 5px 5px 0px 0px;
+  float: left;
+  width: 100%;
+  padding: 3px;
+}
+.portlet.block .portlet.notification .portlet-title .caption {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 30px;
+  color: #fff;
+  float: left;
+  font-weight: bold;
+  padding-right: 30px;
+}
+.portlet.block .portlet.notification .portlet-title .caption i {
+  margin: 0 3px;
+}
+.portlet.block .portlet.notification .portlet-title .actions {
+  display: inline-block;
+  float: right;
+}
+.portlet.block .portlet.notification .portlet-title .actions a {
+  background-color: transparent;
+  color: #fff;
+  font-weight: bold;
+}
+.portlet.block .portlet.notification .portlet-body {
+  clear: both;
+}
+.portlet.block ul.list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 0px 0px 5px 5px;
+  border: solid 1px #D0DCE0;
+  height: 300px;
+}
+.portlet.block ul.list.params {
+  padding: 10px;
+}
+.portlet.block ul.list .item {
+  border-bottom: solid 1px #eee;
+  padding: 0px;
+  cursor: pointer;
+}
+.portlet.block ul.list .dd-item {
+  display: none;
+}
+.portlet.block ul.list .dd-item.selected {
+  background: #BEC1DA;
+}
+.portlet.block ul.list .dd-item.searched {
+  display: block;
+}
+.portlet.block ul.list .dd-item.searched.added {
+  display: none;
+}
+.portlet.block ul.list .item-header {
+  padding: 3px 0 !important;
+}
+.portlet.block ul.list .item-header .for-collapse {
+  -webkit-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+.portlet.block ul.list .item-header .row {
+  position: relative;
+}
+.portlet.block ul.list .item-header .infoset {
+  position: relative;
+}
+.portlet.block ul.list .item-header .infoset > * {
+  vertical-align: top;
+}
+.portlet.block ul.list .item-header .infoset > span,
+.portlet.block ul.list .item-header .infoset > i,
+.portlet.block ul.list .item-header .infoset > img {
+  float: left;
+  line-height: 24px;
+  margin-right: 10px;
+}
+.portlet.block ul.list .item-header .infoset > img {
+  margin-left: 16px;
+}
+.portlet.block ul.list .item-header .infoset .badge {
+  background-color: #28a;
+  line-height: 16px;
+  margin: 5px 3px;
+}
+.portlet.block ul.list .item-header .infoset .collapse-toggler {
+  position: absolute;
+  left: 10px;
+  width: 44px;
+  text-align: right;
+  text-decoration: none;
+  color: #2C8BDC;
+  -webkit-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+.portlet.block ul.list .item-header .infoset .collapse-toggler i {
+  outline: none;
+  font-weight: normal;
+  font-size: 21px;
+  font-style: normal;
+}
+.portlet.block ul.list .item-header .infoset .collapse-toggler i:before {
+  content: '\f105';
+  font-family: 'FontAwesome';
+}
+.portlet.block ul.list .item-header .infoset .collapse-toggler.open {
+  width: 56px;
+  z-index: 1;
+}
+.portlet.block ul.list .item-header .infoset .collapse-toggler.open i:before {
+  content: '\f107';
+}
+.portlet.block ul.list .item-header .infoset h5 {
+  margin: 8px 0px;
+  position: absolute;
+  left: 80px;
+  color: #069A90;
+  font-size: 14px;
+  font-weight: bold;
+}
+.portlet.block ul.list .item-header .infoset h5 > span {
+  vertical-align: top;
+}
+.portlet.block ul.list .item-header .infoset h5 span {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: normal;
+  color: #777;
+}
+.portlet.block ul.list .item-header .infoset h5 span.marker {
+  background: #eee;
+  padding: 3px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  border-radius: 5px;
+}
+.portlet.block ul.list .item-header .infoset h5 span.marker.email {
+  background-color: #F1A124;
+  color: #fff;
+}
+.portlet.block ul.list .item-header .infoset h5 span.marker.user-type-4 {
+  background-color: #7E71D0;
+  color: #fff;
+}
+.portlet.block ul.list .item-header .infoset h5 span.marker.user-type-5 {
+  background-color: #656184;
+  color: #fff;
+}
+.portlet.block ul.list .item-header .infoset h5 span.marker.state-1 {
+  background-color: #4b8df8;
+  color: #fff;
+}
+.portlet.block ul.list .item-header .infoset h5 span.marker.country {
+  background-color: #ddd;
+  padding-top: 1px;
+}
+.portlet.block .notification-search .input-group {
+  width: 100%;
+}
+.portlet.block .notifications > li {
+  border-bottom: 1px dashed #ccc;
+  display: none;
+}
+.portlet.block .notifications > li.searched {
+  display: block;
+}
+.portlet.block .notifications > li.selected .header .noti-slug {
+  background: #BEC1DA;
+  color: #fff;
+}
+.portlet.block .notifications > li .header .title {
+  font-size: 16px;
+  color: #44b6ae;
+  cursor: pointer;
+  padding: 3px;
+}
+.portlet.block .notifications > li .header .noti-body {
+  background: #E4E8FB;
+  padding: 1px 20px;
+}
+.portlet.block .notifications > li .header .noti-body .msg {
+  padding-left: 48px;
+  margin-top: -18px;
+}

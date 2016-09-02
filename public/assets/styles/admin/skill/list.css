@@ -1,0 +1,117 @@
+/**
+* Skill List
+*/
+/**
+ * Variables to use over whole less files.
+ */
+/**
+ * Variables to use over whole less files.
+ */
+/* Global */
+/**
+ * Mixins
+ */
+.strong {
+  font-weight: bold;
+}
+.iblock {
+  display: inline-block;
+}
+.pointer {
+  cursor: pointer;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.skills > li {
+  position: relative;
+  display: block;
+  background: white;
+  border: none;
+  margin: 0 10px 10px 0;
+  padding: 12px 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  min-width: 150px;
+  -webkit-transition: background 0.3s ease;
+  -o-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+.skills > li.editing {
+  height: 300px;
+}
+.skills > li.editing .edit-form {
+  position: absolute;
+  background: #ffffb1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 300px;
+  padding: 12px 15px;
+}
+.skills > li.editing .edit-form input {
+  background: none;
+  border: none;
+  border-bottom: 1px dotted #44b6ae;
+  outline: none;
+  width: 100%;
+  padding-right: 140px;
+}
+.skills > li.editing .edit-form input.error {
+  border-color: red;
+}
+.skills > li.editing .edit-form textarea {
+  background: none;
+  border: 1px dotted #44b6ae;
+  width: 100%;
+  height: 240px;
+  padding: 10px;
+  margin-top: 10px;
+  outline: none;
+  resize: none;
+}
+.skills > li.editing .edit-form .actions {
+  background-color: #ffffb1;
+  padding: 5px 0 0 10px;
+}
+.skills > li.deactive {
+  background-color: #ddd;
+}
+.skills > li.deactive .title {
+  color: #888;
+}
+.skills > li.choose:before {
+  position: absolute;
+  content: "\f00c";
+  top: -1px;
+  right: 3px;
+  font-family: 'FontAwesome';
+}
+.skills > li .title {
+  font-size: 16px;
+  color: #44b6ae;
+}
+.skills > li .actions {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+.skills > li .btn {
+  border-radius: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+}
+.skills > li .desc > span {
+  display: block;
+  padding-top: 10px;
+  margin-top: 10px;
+  border-top: 1px solid #eee;
+}

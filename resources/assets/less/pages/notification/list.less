@@ -1,0 +1,24 @@
+@less: '../../common';
+
+@import '@{less}/_variables.less';
+@import '@{less}/_mixins.less';
+@import '@{less}/_plugins.less';
+
+.notification-item {
+	padding: 6px;
+    border-bottom: 1px solid #ccc;
+    background-color: #f8f8f8;
+    &.unread {
+    	background-color: #fff;
+    	cursor: pointer;
+    }
+    .row div:last-child {
+    	text-align: center;
+    	.fa-close {
+    		color: #ccc;
+		    font-size: 15px;
+		    float: right;
+		    cursor: pointer;
+    	}
+    }
+}

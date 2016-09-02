@@ -1,0 +1,201 @@
+/**
+* User - List
+*/
+
+@import '../../common/_includes.less';
+@import "../../common/common_r.less";
+
+.star {
+  &.empty {background-position: 0 -64px;}
+  &.hover {background-position: 0 -16px;}
+  &.set {
+    &.set5 { left: 0; top: 0; z-index: 1;}
+    background-position: 0 -32px;
+  }
+  &.set5 {position: absolute; width: 100%; left: 0; top: 0;}
+  display: inline-block; width: 16px; height: 16px; background: url(/assets/images/common/icons/star.png);
+}
+.star_wrapper {border: dashed 1px #ccc; /*background: #555;*/ display: inline-block; padding: 0px 5px; border-radius: 10px;}
+.rating_wrapper {position: relative; width: 80px; height: 17px;}
+
+
+ul.list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+
+  .item {
+    margin-bottom: 5px; border: solid 1px #D0DCE0;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .dd-item.open .item {border-color: #61B0C7;}
+  .item-header {
+    
+    padding: 3px 0 !important;
+
+    .for-collapse {.transition(all 200ms linear);}
+    .row {position: relative;}
+    .infoset {
+      position: relative;
+
+      > * {vertical-align: top;}
+      > span, > i, > img {float: left; line-height: 24px;  margin-right: 10px;}
+      > img {margin-left: 16px;}
+      .badge {background-color: #28a; line-height: 16px; margin: 5px 3px;}
+      .collapse-toggler {
+        position: absolute;
+        left: 10px;
+        width: 44px;
+        text-align: right;
+        text-decoration: none;
+        color: #2C8BDC;
+        .transition(all 200ms linear);
+        i {
+          outline: none;
+          font-weight: normal;
+          font-size: 21px;
+          font-style: normal;
+
+          &:before {
+            content: '\f105';
+            font-family: 'FontAwesome';
+          }
+        }
+        &.open {
+          width: 56px;
+          z-index: 1;
+          i:before {content: '\f107';}
+        }
+      }
+
+
+      h5 {
+        margin: 8px 0px;
+        position: absolute; left: 95px; right: 0px; color: #069A90; font-size: 14px; font-weight: bold;
+        > span {vertical-align: top;}
+        span {
+          display: inline-block;
+          font-size: 11px;
+          font-weight: normal;
+          color: #777;
+
+
+          &.marker {
+            background: #eee;
+            padding: 3px;
+            margin-right: 2px;
+            margin-bottom: 2px;
+            border-radius: 5px;
+
+            &.email {background-color: #F1A124; color: #fff;}
+            
+            &.user-type-user_sadmin {background-color: #8E44AD; color: #fff;}
+            &.user-type-user_admin {background-color: #AC79C1; color: #fff;}
+            &.user-type-user_buyer {background-color: #7E71D0; color: #fff;}
+            &.user-type-user_freelancer {background-color: #656184; color: #fff;}
+
+            &.state-1 {background-color: #4b8df8; color: #fff;}
+            &.country {background-color: #ddd; padding-top: 1px; }
+          }
+          i.fa {}
+        }
+
+      }
+    }
+  }
+
+  .item-body {
+    padding-top: 0px !important;
+    margin-bottom: 5px;
+    img.avatar {margin: 0px 10px 0px 5px; float: left;}
+    .item-content {
+          border-left: none !important;
+    }
+
+    .country {color: #069A90;}
+    .marker {
+      display: inline-block; 
+      background: #eee; 
+      color: #333;
+      margin: 5px 2px 0 2px;
+      border-radius: 5px;
+      padding: 0px 5px 2px 5px;
+
+      .label {
+        color: #777;
+        font-size: 11px;
+        padding: 0px;
+        margin-right: 0.1em;
+      }
+      .value {
+        color: #333;
+        font-size: 11px;
+        padding: 0px;
+        margin: 0px;
+      }
+
+      &.suspended-job {
+        background: #EFC7C7;
+        .label, .value {
+          color: #5D3636;
+        }
+      }
+
+      &.open-job {
+        background: #A9EABB;
+        .label, .value {
+          color: #255031;
+        }
+      }
+
+      &.paused-job {
+        background: #B1CFE8;
+        .label, .value {
+          color: #1E405D;
+        }
+      }
+
+
+    }
+  }
+
+}
+
+.list > li .item .item-body, .dd-list > li .item .item-body {padding-top: 10px;}
+
+
+ul.pagination {
+  margin: 0;
+}
+
+
+
+
+.for-status-0 {
+  .status-1 {}
+  .status-2 {display: none;}
+  .status-3 {display: none;}
+  .status-4 {display: none;}
+  .status-9 {}
+}
+.for-status-1 {
+  .status-1 {display: none;}
+}
+.for-status-2 {
+  .status-2 {display: none;}
+}
+.for-status-3 {
+  .status-3 {display: none;}
+}
+.for-status-4 {
+  .status-4 {display: none;}
+}
+.for-status-9 {
+  .status-1 {display: none;}
+  .status-2 {display: none;}
+  .status-3 {display: none;}
+  .status-4 {display: none;}
+  .status-9 {display: none;}
+  .divider4status {display: none;}
+}

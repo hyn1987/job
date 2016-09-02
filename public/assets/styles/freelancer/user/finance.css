@@ -1,0 +1,10 @@
+.freelancer-user-page .form-horizontal .form-group .control-label {
+  text-align: left;
+}
+.freelancer-user-page .info-section .form-group {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.freelancer-user-page .form-section {
+  display: none;
+}

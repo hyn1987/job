@@ -1,0 +1,191 @@
+.freelancer-user-profile .page-wrapper {
+  padding-top: 20px;
+}
+.freelancer-user-profile .page-header {
+  margin-top: 0;
+}
+.freelancer-user-page {
+  font-size: 14px;
+}
+.freelancer-user-page img.img-user-avatar {
+  -moz-box-shadow: 1px 1px 6px #303030;
+  -webkit-box-shadow: 1px 1px 6px #303030;
+  box-shadow: 1px 1px 6px #303030;
+}
+.freelancer-user-page .summary {
+  margin-bottom: 20px;
+}
+.freelancer-user-page .summary .name {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.freelancer-user-page .summary ul {
+  padding-left: 0px;
+}
+.freelancer-user-page .summary ul.items li {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.freelancer-user-page .summary ul.items li.skill,
+.freelancer-user-page .summary ul.items li.country {
+  font-weight: bold;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.freelancer-user-page .summary ul.items li.timezone {
+  font-size: 14px;
+}
+.freelancer-user-page .summary ul.items li.skill-button {
+  font-weight: none;
+}
+.freelancer-user-page .left-detail .overview {
+  margin: 30px 0;
+}
+.freelancer-user-page .block {
+  border: 1px solid #d0f3e5;
+  margin-bottom: 20px;
+  background-color: rgba(210, 235, 233, 0.24);
+  padding: 20px;
+}
+.freelancer-user-page .block .block-header {
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+.freelancer-user-page .block .block-content {
+  margin-top: 20px;
+  border-bottom: 1px solid #d0f3e5;
+}
+.freelancer-user-page .block .block-content:last-child {
+  border-bottom-width: 0;
+}
+.freelancer-user-page .block .block-content ul {
+  padding-left: 0px;
+}
+.freelancer-user-page .block .block-content ul.items li {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.freelancer-user-page .block .block-content ul.items li.skill,
+.freelancer-user-page .block .block-content ul.items li.country {
+  font-weight: bold;
+}
+.freelancer-user-page .block .block-content ul.items li.timezone {
+  font-size: 14px;
+}
+.freelancer-user-page .block .block-content ul.items li.skill-button {
+  font-weight: none;
+}
+.freelancer-user-page .block .block-content ul.items li.desc {
+  font-style: italic;
+}
+.freelancer-user-page .block .block-content ul.table {
+  padding-left: 0px;
+}
+.freelancer-user-page .block .block-content ul.table li {
+  font-size: 14px;
+  padding: 20px 20px;
+  border-bottom: solid 1px #ddd;
+  font-weight: bold;
+}
+.freelancer-user-page .block .block-content ul.table :last-child {
+  border-bottom-width: 0px;
+}
+.freelancer-user-page .block .block-content ul.table button.btn-custom {
+  color: #333;
+  background-color: #fff;
+  border: solid 1px #ccc;
+}
+.freelancer-user-page .block .block-content ul.table button.active {
+  color: #fff;
+  background-color: #337ab7;
+  border: solid 1px #2e6da4;
+}
+.freelancer-user-page .block .block-content .content {
+  margin-bottom: 30px;
+}
+.freelancer-user-page .block .block-content .content:last-child {
+  margin-bottom: 0;
+}
+.freelancer-user-page .block .block-content .content .portfolio-img {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.freelancer-user-page .block .block-content .content .portfolio-title {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.freelancer-user-page .block .block-content .cont {
+  border-bottom: solid 1px #d0f3e5;
+}
+.freelancer-user-page .block .block-content .cont:last-child {
+  border-bottom-width: 0;
+}
+.freelancer-user-page .block .block-content .cont .title {
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.freelancer-user-page .block .block-content .cont .title span {
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: solid 1px;
+}
+.freelancer-user-page .block .block-content .cont .title span:last-child {
+  border-width: 0;
+}
+.freelancer-user-page .block .block-content .cont .title span:first-child {
+  padding-left: 0;
+}
+.freelancer-user-page .block .block-content .cont .duration {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.freelancer-user-page .right-side {
+  margin-top: 20px;
+}
+.freelancer-user-page .right-side .right-side-block-header {
+  margin-bottom: 14px;
+}
+.freelancer-user-page .right-side-block {
+  margin-bottom: 40px;
+}
+.freelancer-user-page .no-border {
+  border-width: 0;
+}
+.freelancer-user-page .no-background {
+  background-color: #fff;
+}
+.freelancer-user-page .right-align {
+  text-align: right;
+}
+.freelancer-user-page .btn-wide {
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.freelancer-user-page .btn-section {
+  padding-left: 60px;
+  padding-right: 80px;
+}
+.freelancer-user-page .border-bottom {
+  border-bottom: solid 1px #d0f3e5;
+}
+span.freelancer-total-score {
+  margin-left: 6px;
+}
+img.img-portfolio {
+  -moz-box-shadow: 1px 1px 3px #666666;
+  -webkit-box-shadow: 1px 1px 3px #666666;
+  box-shadow: 1px 1px 3px #666666;
+  max-width: 100%;
+}
+span.score {
+  margin-left: 10px;
+}
+.alert-no-found {
+  text-align: center;
+  font-size: 18px;
+}

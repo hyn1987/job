@@ -1,0 +1,15 @@
+/** From Metronic material design3 {{{ **/
+/** }}} **/
+.title-section .title {
+  margin-top: 12px;
+}
+.contract-limit {
+  color: #9e9e9e;
+}
+.price-field {
+  width: 200px;
+}
+#hourly_limit {
+  display: inline;
+  width: 160px;
+}

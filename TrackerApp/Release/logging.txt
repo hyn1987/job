@@ -1,0 +1,49 @@
+Save Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/330c150ddc6ca908a1770c08ac3b4694.png
+{"status":{"1460455533":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/20ea893f62395659849767e5f234c792.png
+{"status":{"1460456313":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/79895017977ac1a9d41268883ae3713f.png
+{"status":{"1460456613":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/2a9770cca947eaff5353d77105d816f9.png
+{"status":{"1460457273":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/c96cefcd4beb083779ed9e59d28bb879.png
+{"status":{"1460457873":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/36c70562c30b9411b478e6b5178c9375.png
+{"status":{"1460512351":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/b9149c55ca53c6e248d249c7cc0f98ad.png
+{"status":{"1460513131":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/1f9669a8ca14fdd8e4cb3ac6fe85e75e.png
+{"status":{"1460513911":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/b3503e49d2e0f5b49ba7367c5f236619.png
+{"status":{"1460514391":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/1b6068997e397057b62e4757483e032d.png
+{"status":{"1460514931":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/0356b91e29fda0ffb9a1b950ed27f68e.png
+{"status":{"1460515231":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/699a545ec0eb0d8e50ed9577cd95987e.png
+{"status":{"1460516311":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/40493c9be92d47f78cb47772b0469d89.png
+{"status":{"1460516431":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/f123cc3fbd69df32829cd38e1dae751d.png
+{"status":{"1460517211":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/e040583e3494869ba64b4edd75183d18.png
+{"status":{"1460518111":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/5000d617b247f0c0b52246be4161e1a7.png
+{"status":{"1460518591":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/c3a9f7dbbebd50f8f067ce8a7d654091.png
+{"status":{"1460519071":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/1c0d65339bb6925e4e700e8e8ee395da.png
+{"status":{"1460519851":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/91394764f946c785363751c163ef8334.png
+{"status":{"1460520331":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/781adb47b9b013113ef2f8e9666a712c.png
+{"status":{"1460520811":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/2c87d7f53391a79b65ecaafb73db2d4f.png
+{"status":{"1460521351":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/c910e146c2de35421883cba6a469f382.png
+{"status":{"1460521831":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/a39813fb042ec7ea6513428e162bdefb.png
+{"status":{"1460522911":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/09dde199196f6fa79a25f87197747f7a.png
+{"status":{"1460523391":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/24c0b531de12c24bccdf80042229c316.png
+{"status":{"1460523991":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/3b6354536be9fe7b2c02222fb6d88372.png
+{"status":{"1460524711":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/75cee02963d7e146f0aca1334db355b4.png
+{"status":{"1460525131":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/8800fe9fbf876fc6344074726c7f6f45.png
+{"status":{"1460525671":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/180e31b27696444ae5dc9ce9cd5bf833.png
+{"status":{"1460526031":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/bfecc7940de7d6c00022b3f32cfc3d5e.png
+{"status":{"1460526631":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/e7d1e25ed7a2c488d6c8ed0b169868d6.png
+{"status":{"1460527291":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/e00915946d934ad2df82d60dced45984.png
+{"status":{"1460527951":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/e0f084e4f3a02783d613481db6d25061.png
+{"status":{"1460528911":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/74cc11f199ff148c2990a9033014926d.png
+{"status":{"1460529151":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/c94a65c334b58bdd39a27b20393471bf.png
+{"status":{"1460529631":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/77089839e3e480ed7afa421bb6e95842.png
+{"status":{"1460530711":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/76b4dc75e4d69267390966d94eb43f10.png
+{"status":{"1460531251":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/0fe66a3815bbd7f885cb074a29a70ba1.png
+{"status":{"1460531491":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/173db2786ed517f0ad8c066eb01ccbf2.png
+{"status":{"1460532211":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/e9c59e665880d64ef2cf65ba899de0c1.png
+{"status":{"1460533051":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/2f572ea7d2e6a0dcfd3c8c7db87ee2ae.png
+{"status":{"1460533411":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/6bf4cf1e3e5080f994e4cf191aaeef10.png
+{"status":{"1460533891":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/3013e8119126324bbd886a6293a6d652.png
+{"status":{"1460534791":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/319f4106233fce6ad27b953e83832a47.png
+{"status":{"1460535511":{"erorr":0}}}timelog_cacheUnknown errorSave Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/5015a43fd24281ff151783622509cf2d.png
+{"error":{"logs":{"1460535931":{"active_window":"Test","activities":{"16:19":{"k":0,"m":0},"16:20":{"k":0,"m":0},"16:21":{"k":0,"m":0},"16:22":{"k":0,"m":0},"16:23":{"k":0,"m":0},"16:24":{"k":0,"m":0},"16:25":{"k":0,"m":0}},"comment":"Working now.","contract":"4"}},"token":"oiv2dnPqSO9H90K410FGkKDPbc4JrPCDpNrAXx99B0N14D622J7DrpGPk7APaFALKfQqeoGTtglcq1qjE8q0Y1gZi0wj3ug6mpQly5d83pYX2Vh3O3rVwb1460512278"}}Save Image:C:/Users/Work/AppData/Local/WawJob/WawTracker/e28a40cc67baf771729f90c26df78d97.png
+{"error":{"logs":{"1460536351":{"active_window":"Test","activities":{"16:26":{"k":0,"m":0},"16:27":{"k":0,"m":0},"16:28":{"k":0,"m":0},"16:29":{"k":0,"m":0},"16:30":{"k":0,"m":0},"16:31":{"k":0,"m":0},"16:32":{"k":0,"m":0}},"comment":"Working now.","contract":"4"}},"token":"oiv2dnPqSO9H90K410FGkKDPbc4JrPCDpNrAXx99B0N14D622J7DrpGPk7APaFALKfQqeoGTtglcq1qjE8q0Y1gZi0wj3ug6mpQly5d83pYX2Vh3O3rVwb1460512278"}}Cannot load library F:/wawjob/wawjob/TrackerApp/Release/WawTracker.dll: 
+F:/wawjob/wawjob/TrackerApp/Release
+F:/wawjob/wawjob/TrackerApp/Release/WawTracker.dll

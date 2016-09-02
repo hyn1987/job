@@ -1,0 +1,188 @@
+/** From Metronic material design3 {{{ **/
+/** }}} **/
+.freelancer-user-page .form-horizontal .form-group .control-label {
+  text-align: left;
+}
+.freelancer-user-page .info-section .form-group {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.freelancer-user-page .form-section {
+  display: none;
+}
+.freelancer-user-page .clear-div {
+  clear: both;
+}
+.freelancer-user-page input[type="radio"] {
+  /*margin-top: 10px;*/
+  height: 14px;
+  width: 14px;
+  float: left;
+}
+.freelancer-user-page .col-sm-10 label {
+  height: 34px;
+  line-height: 34px;
+}
+.freelancer-user-page .pre-summary {
+  line-height: 34px;
+  height: 34px;
+}
+.freelancer-user-page .form-group {
+  clear: both;
+}
+.freelancer-user-page a,
+.freelancer-user-page label {
+  /*line-height: 34px;
+  height: 34px;*/
+}
+.freelancer-user-page .alert-danger {
+  clear: both;
+}
+.freelancer-user-page .display-hide {
+  display: none;
+}
+#SelectLanguage,
+#select_skill {
+  height: 300px;
+}
+.freelancer-user-page .form-horizontal .form-group .control-label {
+  text-align: left;
+}
+.freelancer-user-page form .label-field {
+  display: block;
+  height: 34px;
+  line-height: 1.42857;
+  padding: 6px 12px;
+  border: 1px solid #fff;
+  margin: 0px 1px;
+}
+.freelancer-user-page form .input-field {
+  display: none;
+}
+.freelancer-user-page form .form-group .help-block {
+  display: none;
+}
+.freelancer-user-page form .form-group .portfolio-item .img img {
+  width: 100%;
+}
+.freelancer-user-page form .form-group .portfolio-img {
+  text-align: center;
+}
+.freelancer-user-page form .form-group .portfolio-img img {
+  border: 1px solid #e5e5e5;
+  width: 400px;
+  height: 300px;
+  margin-top: 10px;
+}
+.freelancer-user-page form .form-group.has-error .help-block {
+  display: block;
+}
+.freelancer-user-page form .pro-description-label {
+  height: auto;
+  width: 100%;
+  padding: 6px 12px;
+}
+.freelancer-user-page form .skill-list {
+  padding: 6px 12px;
+}
+.freelancer-user-page form .language-list {
+  padding: 6px 12px;
+}
+.freelancer-user-page form .education-block {
+  padding: 6px 12px;
+}
+.freelancer-user-page form .employee-history-block {
+  padding: 6px 12px;
+}
+.freelancer-user-page form .portfolio-list .no-portfolio {
+  padding: 6px 12px;
+}
+.freelancer-user-page form textarea.form-control {
+  height: 100px;
+}
+.freelancer-user-page form #Profile_Rate {
+  width: 75px;
+  float: left;
+}
+.freelancer-user-page form .rate-unit {
+  margin-left: 10px;
+  font-size: 14px;
+  height: 34px;
+  line-height: 1.42857;
+  padding: 6px 12px;
+  display: block;
+  border: 1px solid #fff;
+  float: left;
+}
+.freelancer-user-page form .label-field.rate-unit {
+  margin-left: 8px;
+}
+.freelancer-user-page form .profile-rate {
+  width: 75px;
+  float: left;
+}
+.freelancer-user-page form.editable .label-field {
+  display: none;
+}
+.freelancer-user-page form.editable .input-field {
+  display: block;
+}
+.freelancer-user-page form.editable span.input-field {
+  display: inline-block;
+  cursor: pointer;
+}
+.freelancer-user-page form.editable .action-btn {
+  display: inline-block;
+}
+.input-icon.right i {
+  right: 46px;
+  float: right;
+}
+.has-error .input-icon i {
+  color: #F3565D;
+}
+.input-icon i {
+  color: #CCC;
+  display: block;
+  position: absolute;
+  margin: 11px 2px 4px 10px;
+  z-index: 3;
+  width: 16px;
+  height: 16px;
+  font-size: 16px;
+  text-align: center;
+}
+.divided {
+  margin-right: 10px;
+  line-height: 34px;
+  background-color: #eaedee;
+  padding: 0 10px;
+}
+.divided .icon-close {
+  vertical-align: middle;
+}
+.date-option {
+  width: 120px;
+  float: left;
+  margin-left: 20px;
+}
+.full-option {
+  width: 420px;
+  float: left;
+  margin-left: 20px;
+}
+.modal-label {
+  width: 100px;
+  float: left;
+  margin-left: 20px;
+}
+.action-btn {
+  line-height: 20px !important;
+  display: none;
+}
+.action-buttons .remove-button {
+  margin-right: 10px;
+}
+.action-buttons {
+  margin-bottom: 30px;
+}

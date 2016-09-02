@@ -1,0 +1,61 @@
+.project-selector-section {
+  margin-bottom: 10px;
+}
+.contractor-item {
+  padding: 15px 10px;
+  border-bottom: solid 1px #ddd;
+}
+.contractor-item.status-closed {
+  background: #eee;
+}
+.contractor-item .user-avatar {
+  position: absolute;
+}
+.contractor-item .contractor-location {
+  margin-top: 5px;
+}
+.contractor-item .contractor-feedback {
+  margin: 10px 0px;
+}
+.contractor-item .contractor-feedback span.freelancer-total-score {
+  margin-left: 5px;
+}
+.contractor-item .contractor-feedback span.freelancer-total-score i {
+  margin-left: -5px;
+}
+.contractor-item .contractor-item-section {
+  margin-left: 74px;
+}
+.contractor-item .contractor-item-section .contractor-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+.contractor-item .contractor-item-section .contractor-title {
+  font-size: 18px;
+}
+.user-contracts .contract-item {
+  margin-bottom: 16px;
+}
+.user-contracts .contract-item div {
+  line-height: 20px;
+}
+.user-contracts .contract-item .contract-title {
+  font-size: 14px;
+  margin-left: 10px;
+}
+.user-contracts .contract-item .contract-status {
+  font-size: 13px;
+  font-weight: normal;
+}
+.user-contracts .contract-item.status-open {
+  font-weight: bold;
+}
+.select2-container .select2-selection--single {
+  height: 36px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  line-height: 34px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 34px;
+}

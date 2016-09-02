@@ -1,0 +1,145 @@
+/**
+* Job - List
+*/
+
+@import "../../common/_includes.less";
+
+/* Job Query Form */
+.job-queries {
+  margin: 18px 0 12px 0;
+
+  .jkeyword {  
+    margin-right: 6px;
+    width: 60%;
+    padding: 0 8px;
+  }
+
+  .btn-search {
+    font-weight: bold;
+    padding: 0 16px;
+  }
+
+  .high {
+    min-height: 34px;
+  }
+
+  .adv-search {
+    margin-left: 10px;
+  }
+}
+
+/* Job Search Results */
+.job-results {
+  .pagi {
+    margin: 0 12px 10px;
+    .total {
+      padding-top: 8px;
+    }
+  }  
+
+  .job-items {
+    .jpanel {
+      &.open {
+        .closed-only {
+          display: none;
+        }
+      }
+
+      &.closed {
+        .open-only {
+          display: none;
+        }
+
+        @bgClosedJob: #AFAFAF;
+        &, & .panel-heading, & .panel-footer {
+          background-color: @bgClosedJob;
+        } 
+      }
+    }
+
+    .panel-heading {
+      background-color: #fff;
+      padding: 2px 12px;
+
+      .job-avatar {
+        > img {
+          border: 1px solid #ccc;
+          .border-radius(16px);
+          margin: 0 4px 2px 0;
+        }
+      }
+
+      > h4 {
+        font-weight: bold;
+        display: inline-block;
+      }
+    }
+
+    .panel-body {
+      p:last-child {
+        margin-bottom: 0;
+      }
+
+      .more {
+        text-decoration: underline;
+      }
+
+      .activity-info {
+        > p {
+          margin-bottom: 4px;
+        }
+      }
+    }
+
+    .panel-footer {
+      background-color: #fff;
+    }
+
+    .btn-job-action {
+      margin-top: 8px;
+      padding: 2px 6px;
+      min-width: 60px;
+    }
+
+    .meta {
+      margin: 0 0 10px 0;
+    }
+
+    i.is-closed {
+      font-weight: normal;
+    }
+
+    .skill-wrp {
+      margin-right: 10px;
+
+      .skill-item {
+        padding: 2px 6px;
+        background-color: #ddd;
+        margin: 0 4px;
+      }
+    }
+
+    /* Applicants */
+    .app-wrp {
+    }
+
+    /*
+    &.private {
+      background-color: #F9F9B9;
+      .skill-item {
+        background-color: #EAEFAA;
+      }
+    }
+
+    &.closed {
+      background-color: #E8E8E8;
+    }
+    */
+  }
+}
+
+.job-footer {
+  .skills {
+    margin-left: 10px;
+  }
+}

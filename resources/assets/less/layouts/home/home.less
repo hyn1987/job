@@ -1,0 +1,68 @@
+@import '../_default.less';
+
+/**
+ * Home Layout
+ */
+
+.layout-home {
+  // Page Header
+  .page-header {
+    position: fixed;
+    background-color: white;
+    border: none;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 12px 0 0 0;
+    height: 58px;
+    min-height: 58px;
+    z-index: 1005;
+    .opacity(1);
+    .transition(opacity .2s linear);
+
+    // Top Nav
+    .top-nav {
+      float: right;
+      margin: 0;
+      padding: 0;
+      > ul {
+        margin-top: 10px;
+        > li {
+          > a {
+            background: none;
+            padding: 0;
+            color: #555;
+            margin-right: 15px;
+            &.user-avatar {
+              margin-top: -7px;
+            }
+            > i {
+              margin-right: 6px;
+              font-size: 15px;
+              color: #f53c26;
+            }
+          }
+          &:last-child {
+            > a {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Content
+  .page-content {
+    background: #fff;
+    float: left;
+    width: 100%;
+    margin-top: 58px;
+    min-height: 700px;
+  }
+  &.scroll {
+    .page-header {
+      .opacity(.9);
+    }
+  }
+}

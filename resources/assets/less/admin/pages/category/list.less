@@ -1,0 +1,179 @@
+/**
+* Category List
+*/
+
+@import "../../common/_includes.less";
+
+.category-list {
+  .dd-list {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    .dd-list {
+      padding-left: 30px;
+    }
+  }
+  .dd-item, .dd-empty, .dd-placeholder {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    min-height: 20px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .dd-handle {
+    position: absolute;
+    display: block;
+    background: none;
+    border: none;
+    width: 19px;
+    height: 19px;
+    margin: 0;
+    left: 21px;
+    top: 11px;
+    cursor: move;
+    padding: 0;
+    color: #c6c6c6;
+    text-decoration: none;
+    font-size: 16px;
+    z-index: 1;
+  }
+  .dd-collapse, .dd-expand {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+  .dd-item {
+    > button {
+      position: absolute;
+      display: block;
+      cursor: pointer;
+      float: left;
+      top: 10px;
+      left: 6px;
+      width: 13px;
+      height: 18px;
+      margin: 0;
+      padding: 0;
+      text-indent: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      border: 0;
+      background: transparent;
+      line-height: 1;
+      text-align: center;
+      color: #c6c6c6;
+      outline: none;
+      font-weight: normal;
+      font-size: 20px;
+      z-index: 1;
+      &:before {
+        content: '\f105';
+        display: block;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        text-indent: 0;
+        font-family: 'FontAwesome'
+      }
+      &[data-action="collapse"]:before {
+        content: '\f107';
+      }
+    }
+  }
+  .dd-placeholder, .dd-empty {
+    margin: 5px 0;
+    padding: 0;
+    min-height: 30px;
+    background: #f2fbff;
+    border: 1px dashed #b6bcbf;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+  .dd-empty {
+    border: 1px dashed #bbb;
+    min-height: 100px;
+    background-color: #e5e5e5;
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+  }
+  .dd-dragel {
+    position: absolute;
+    pointer-events: none;
+    z-index: 9999;
+    > .dd-item .dd-handle {
+      margin-top: 0;
+    }
+  }
+  .dd-hover > .dd-handle {
+    background: #2ea8e5 !important;
+  }
+
+  /**
+   * Nestable Draggable Handles
+   */
+  .dd3-content {
+    position: relative;
+    display: block;
+    background: white;
+    border: none;
+    margin-bottom: 10px;
+    padding: 12px 15px;
+    color: #737373;
+    text-decoration: none;
+    font-weight: 400;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    .edit-category-box {
+      position: absolute;
+      background: #FFFFB1;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      padding: 12px 15px;
+      z-index: 1;
+      input {
+        background: none;
+        border: none;
+        border-bottom: 1px dotted #44b6ae;
+        outline: none;
+        width: 100%;
+        color: #44b6ae;
+        font-size: 16px;
+      }
+    }
+    .btn {
+      border-radius: 0;
+      outline: none;
+      .user-select(none);
+      > i {
+        margin-left: 5px;
+      }
+    }
+  }
+  .dd-dragel > .dd3-item > .dd3-content {
+    margin: 0;
+  }
+  .dd3-item > button {
+    margin-left: 30px;
+  }
+  h5 {
+    color: #44b6ae;
+    font-size: 16px;
+    margin: 0 0 0 30px;
+    > input {
+      border: 1px solid #ccc;
+      border-radius: 0;
+      width: 100%;
+      height: 23px;
+      outline: none;
+    }
+  }
+}

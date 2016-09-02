@@ -1,0 +1,11 @@
+D:\VSWork\WawTracker\WawTracker\bin\Release\WawTracker.exe.config
+D:\VSWork\WawTracker\WawTracker\bin\Release\WawTracker.exe
+D:\VSWork\WawTracker\WawTracker\bin\Release\WawTracker.pdb
+D:\VSWork\WawTracker\WawTracker\obj\Release\WawTracker.LoginForm.resources
+D:\VSWork\WawTracker\WawTracker\obj\Release\WawTracker.MainForm.resources
+D:\VSWork\WawTracker\WawTracker\obj\Release\WawTracker.Properties.Resources.resources
+D:\VSWork\WawTracker\WawTracker\obj\Release\WawTracker.csproj.GenerateResource.Cache
+D:\VSWork\WawTracker\WawTracker\obj\Release\WawTracker.exe
+D:\VSWork\WawTracker\WawTracker\obj\Release\WawTracker.pdb
+D:\VSWork\WawTracker\WawTracker\obj\Release\WawTracker.csprojResolveAssemblyReference.cache
+D:\VSWork\WawTracker\WawTracker\obj\Release\WawTracker.ScreenshotPopup.resources

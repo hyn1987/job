@@ -1,0 +1,139 @@
+@import "../../common/_includes.less";
+.infoset {
+  position: relative;
+  margin: 0px 0 10px 0;
+  > * {vertical-align: top;}
+  > span, > i, > img {float: left; line-height: 24px;  margin-right: 10px;}
+  > img {}
+  .badge {background-color: #28a; line-height: 16px; margin: 5px 3px;}
+  .collapse-toggler {
+    position: absolute;
+    left: 10px;
+    width: 44px;
+    text-align: right;
+    text-decoration: none;
+    color: #2C8BDC;
+    .transition(all 200ms linear);
+    i {
+      outline: none;
+      font-weight: normal;
+      font-size: 21px;
+      font-style: normal;
+
+      &:before {
+        content: '\f105';
+        font-family: 'FontAwesome';
+      }
+    }
+    &.open {
+      width: 56px;
+      z-index: 1;
+      i:before {content: '\f107';}
+    }
+  }
+
+
+  h5 {
+    margin: 8px 0px;
+    position: absolute; left: 60px; right: 0px; color: #069A90; font-size: 14px; font-weight: bold;
+    > span {vertical-align: top;}
+    span {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: normal;
+      color: #777;
+
+
+      &.marker {
+        background: #eee;
+        padding: 3px;
+        margin-right: 2px;
+        margin-bottom: 2px;
+        border-radius: 5px;
+
+        &.email {background-color: #F1A124; color: #fff;}
+        
+        &.user-type-user_sadmin {background-color: #8E44AD; color: #fff;}
+        &.user-type-user_admin {background-color: #AC79C1; color: #fff;}
+        &.user-type-user_buyer {background-color: #7E71D0; color: #fff;}
+        &.user-type-user_freelancer {background-color: #656184; color: #fff;}
+
+        &.state-1 {background-color: #4b8df8; color: #fff;}
+        &.country {background-color: #ddd; padding-top: 1px; }
+      }
+      i.fa {}
+    }
+
+  }
+}
+.balance {
+  font-size: 18px;
+  margin-top: 8px;
+}
+#date_range {
+  width: 250px;
+  float: left;
+  margin: 0px 2px;
+}
+
+.prev-unit, .next-unit {
+  float: left;
+  padding: 8px 10px;
+  transition: all 0.3s linear;
+  &:hover {
+    text-decoration: none;
+    background: #ddd;
+  }
+}
+
+.contract-filter-section {
+  .dropdown-menu {
+    .filter-item{
+      padding: 5px 10px;
+    }
+    .project-filter {
+      font-weight: bold;
+      background: #ddd;
+    }
+    .contract-filter {
+      padding-left: 30px;
+    }
+  }
+
+  .btn.selectpicker {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
+  padding-left: 340px;
+  width: 100%;
+}
+
+.transaction-type-section {
+  margin: 10px 0px 20px 0px;
+}
+
+.transactions-section {
+  table thead th{
+    font-weight: bold;
+  }
+}
+
+.statement-section {
+  font-size: 14px;
+  margin-top: 50px;
+  .statement-content {
+    margin-top: 20px;
+    table {
+      width: 100%;
+      tr td{
+        padding: 10px 8px;
+        text-align: right;
+        border-bottom: solid 1px #ddd;
+        &.last {
+          border-bottom: none;
+        }
+      }
+    }
+  }  
+}

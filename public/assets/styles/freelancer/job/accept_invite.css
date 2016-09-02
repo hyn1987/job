@@ -1,0 +1,125 @@
+/** From Metronic material design3 {{{ **/
+/** }}} **/
+.view-section .section {
+  padding: 0px 25px;
+  margin-bottom: 20px;
+}
+.view-section .client-info {
+  margin-top: 10px;
+  padding: 10px 0px;
+  line-height: 18px;
+  border-top: solid 1px #ddd;
+}
+.view-section .client-info .sub-section {
+  padding: 10px 0px;
+}
+.project-category {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background: #e0e0e0;
+}
+.past-time {
+  padding: 5px 10px;
+}
+.project-type-info {
+  line-height: 20px;
+}
+.multi-freelancer-needed span {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: #008bcc;
+  color: #fff;
+  font-weight: bold;
+}
+.project-skills .skill-label {
+  padding: 5px 0px;
+  margin-right: 10px;
+}
+.project-skills .skill {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background: #e0e0e0;
+}
+.action-buttons-section button#submitProposal {
+  width: 100%;
+}
+.desc {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 0px;
+  margin: 0px;
+  padding: 0px;
+  color: #555;
+}
+.page-content .title-section {
+  padding: 0 0 25px;
+}
+.subject {
+  border-bottom: 1px solid #888;
+  padding-bottom: 10px;
+  color: #555;
+}
+.title-section .title {
+  color: #555;
+}
+.sub-section {
+  color: #555;
+}
+.box-sub-section {
+  background: #F4F9ED;
+  padding: 5px;
+  border: solid 1px #ddd;
+  width: 360px;
+}
+.block-term-section {
+  clear: both;
+  margin: 0 0 20px;
+}
+.block-term-section input {
+  text-align: right;
+  height: 30px;
+  line-height: 24px;
+  font-size: 16px;
+  padding: 0 10px;
+}
+.block-term-section label.help-comment {
+  height: 24px;
+  line-height: 24px;
+  font-size: 12px;
+  color: #999;
+}
+.block-term-section label.help-comment span {
+  color: #D64635;
+}
+.block-section {
+  clear: both;
+  margin: 10px;
+}
+.sub-section textarea {
+  width: 90%;
+  height: 180px;
+}
+.action-buttons-section {
+  margin: 0 auto 40px;
+  text-align: center;
+}
+.action-buttons-section a {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  height: 34px;
+  letter-spacing: 0.5px;
+  line-height: 34px;
+}
+.has-error {
+  margin: -20px 0 20px;
+}
+input.has-errors {
+  border: 1px solid #A94442;
+}
+.price-field {
+  width: 200px;
+}

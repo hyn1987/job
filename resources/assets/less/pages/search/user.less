@@ -1,0 +1,86 @@
+@less: '../../common';
+
+@import '@{less}/_variables.less';
+@import '@{less}/_mixins.less';
+@import '@{less}/_plugins.less';
+
+.title-section {
+  color:#337ab7;
+}
+
+.freelancer-page {
+  
+  .title-section {
+    margin-bottom: 20px;
+
+    span.title {
+      color:#337ab7;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .msg {
+      padding-top: 20px;
+    }
+  }
+  
+  
+  .valign-middle {
+    line-height: 35px; 
+    height: 35px;
+  }
+
+  .margin-bottom-10px {
+    margin-bottom: 10px;
+  }
+  
+  .margin-top-10px {
+    margin-top: 10px;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .result {
+    padding: 15px;
+    background-color: #F4F9ED;
+    border: solid 1px #ddd;
+  }
+
+  .result-footer {
+    margin-top: 15px;
+  }
+}
+
+.search-user {
+  .row-user {
+    margin-top: 10px;
+
+    .col-user-avatar {
+      float: left;
+      .iblock;
+      text-align: center;
+      padding: 10px 4px;
+    }
+
+    .col-user-detail {
+      margin-left: 138px;
+      border-bottom: 1px solid #e5e5e5;
+
+      span.user-score {
+        margin-left: 6px;
+      }
+    }
+
+    &:last-child {
+      .col-user-detail {
+        border-bottom-width: 0;
+      }
+    }
+
+    img.user-avatar {
+      border: 2px solid #4B8ABE;
+    }
+  }
+}

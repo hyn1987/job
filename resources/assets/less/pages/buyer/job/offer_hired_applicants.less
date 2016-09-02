@@ -1,0 +1,69 @@
+@less: '../../../common';
+
+@import '@{less}/_variables.less';
+@import '@{less}/_mixins.less';
+@import '@{less}/_plugins.less';
+
+.no-applicants-message {
+  padding: 20px 10px;
+  font-size: 18px;
+}
+
+.applicant-row {
+  padding: 40px 0px;
+
+  .user-avatar {
+    position: absolute;
+  }
+  .applicant-info {
+    padding-left: 84px;
+    width: 100%;
+    .user-name {
+      font-size: 20px;
+      font-weight: bold;
+      color: @default-color;
+    }
+    .user-title {
+      font-size: 20px;
+      line-height: 32px;
+    }
+    .contract-status {
+      display: inline-block;
+      padding: 5px;
+
+      &.status-offer {
+        background: #8775a7;
+        color: white;
+      }
+      &.status-hired {
+        background: #008bcc;
+        color: white;
+      }
+      
+      margin-top: 10px;
+      .status {
+        font-weight: bold;
+      }
+    }
+   
+    .user-skill {
+      margin-top: 20px;
+    }
+
+    .action-section {
+      text-align: right;
+      .application-status {
+        font-size: 16px;
+        margin-bottom: 5px;
+      }
+      .price {
+        font-size: 18px;
+        font-weight: bold;
+      }
+    }
+
+    .action-links {
+      margin: 15px 0px 10px;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+/** From Metronic material design3 {{{ **/
+/** }}} **/
+.title-section {
+  color: #337ab7;
+}
+.freelancer-page .title-section {
+  margin-bottom: 20px;
+}
+.freelancer-page .title-section span.title {
+  color: #337ab7;
+  font-size: 22px;
+  font-weight: bold;
+}
+.freelancer-page .title-section .msg {
+  padding-top: 20px;
+}
+.freelancer-page .valign-middle {
+  line-height: 35px;
+  height: 35px;
+}
+.freelancer-page .margin-bottom-10px {
+  margin-bottom: 10px;
+}
+.freelancer-page .margin-top-10px {
+  margin-top: 10px;
+}
+.freelancer-page .hide {
+  display: none;
+}
+.freelancer-page .result {
+  padding: 15px;
+  background-color: #F4F9ED;
+  border: solid 1px #ddd;
+}
+.freelancer-page .result-footer {
+  margin-top: 15px;
+}
+.search-user .row-user {
+  margin-top: 10px;
+}
+.search-user .row-user .col-user-avatar {
+  float: left;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 4px;
+}
+.search-user .row-user .col-user-detail {
+  margin-left: 138px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.search-user .row-user .col-user-detail span.user-score {
+  margin-left: 6px;
+}
+.search-user .row-user:last-child .col-user-detail {
+  border-bottom-width: 0;
+}
+.search-user .row-user img.user-avatar {
+  border: 2px solid #4B8ABE;
+}

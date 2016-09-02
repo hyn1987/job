@@ -1,0 +1,171 @@
+.strong {
+  font-weight: bold;
+}
+.iblock {
+  display: inline-block;
+}
+.pointer {
+  cursor: pointer;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.view-section .section {
+  padding: 0px 25px;
+  margin-bottom: 20px;
+}
+.view-section .client-info {
+  padding: 10px 0px;
+  line-height: 18px;
+}
+.view-section .client-info .sub-section label {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.view-section .client-info .sub-section a {
+  display: block;
+}
+.view-section .client-info .sub-section .subtitle {
+  margin-bottom: 20px;
+}
+.modal-body .block-section {
+  margin: 10px 0;
+}
+.modal-body .block-section span {
+  padding: 0 5px;
+  height: 30px;
+  line-height: 30px;
+}
+.modal-body .block-section label {
+  height: 30px;
+  line-height: 30px;
+}
+.modal-body .block-section input {
+  height: 30px;
+  line-height: 30px;
+  text-align: right;
+  font-size: 14px;
+  font-weight: bold;
+}
+.modal-body .block-section textarea {
+  width: 100%;
+}
+.action-buttons-section button#submitProposal {
+  width: 100%;
+}
+.title {
+  margin: 20px 0 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.small-box-section {
+  background: none repeat scroll 0 0 #F4F9ED;
+  border: 1px solid #DDDDDD;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.detail-page-link {
+  margin-left: 10px;
+}
+.cvletter {
+  background-color: #F4F9ED;
+  border: none;
+  border-radius: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+.sub-section .title,
+box-section .title {
+  border-bottom: 1px dashed #DDDDDD;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 10px 0;
+  padding: 5px 0;
+}
+.sub-section .description,
+box-section .description {
+  margin-bottom: 20px;
+}
+.sub-section .message-block,
+box-section .message-block {
+  margin-bottom: 20px;
+}
+.sub-section .message-block .avatar,
+box-section .message-block .avatar {
+  text-align: center;
+}
+.sub-section .message-block .sender,
+box-section .message-block .sender {
+  margin: 5px 0;
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+}
+.sub-section .message-block .send-time,
+box-section .message-block .send-time {
+  margin: 5px 0;
+  font-size: 12px;
+  color: #999;
+}
+#Message {
+  height: 100px;
+  width: 100%;
+}
+.action-btns {
+  float: right;
+  margin: 20px 0 30px;
+  display: block;
+}
+.action-btns #SendMsg {
+  margin-right: 20px;
+}
+.message-section {
+  margin-bottom: 50px;
+}
+.message-section .panel {
+  margin: 0px;
+}
+.message-section .panel .panel-heading {
+  padding: 0px;
+}
+.message-section .panel .panel-heading .panel-title > a {
+  padding: 10px 15px;
+  display: block;
+  font-size: 14px;
+}
+.message-section .panel .panel-heading .panel-title > a:hover,
+.message-section .panel .panel-heading .panel-title > a:visited,
+.message-section .panel .panel-heading .panel-title > a:focus {
+  text-decoration: none;
+}
+.message-section .panel .panel-body {
+  padding: 5px 15px;
+}
+.message-section .message-item {
+  position: relative;
+  padding: 10px 0px;
+}
+.message-section .message-item .message-content {
+  width: 100%;
+  padding-top: 5px;
+  padding-left: 60px;
+  padding-right: 100px;
+  min-height: 40px;
+}
+.message-section .message-item .message-content .message-text {
+  margin: 5px 0px;
+}
+.message-section .message-item .message-timestamp {
+  position: absolute;
+  right: 2px;
+  top: 15px;
+}
+.section-title {
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-weight: bold;
+}

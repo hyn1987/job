@@ -1,0 +1,65 @@
+.title-section .title {
+  margin-top: 12px;
+}
+.contract-limit {
+  color: #9e9e9e;
+}
+#fixed_price,
+#hourly_rate {
+  display: inline;
+  width: 80px;
+  text-align: right;
+}
+#hourly_limit {
+  display: inline;
+  width: 160px;
+}
+.view-section .section {
+  padding: 0px 25px;
+  margin-bottom: 20px;
+}
+.view-section .status-msg-section {
+  font-weight: bold;
+  padding: 10px 0px;
+}
+.client-info {
+  margin-top: 10px;
+  padding: 10px 0px;
+  line-height: 18px;
+  border-top: solid 1px #ddd;
+}
+.client-info .sub-section {
+  padding: 10px 0px;
+}
+.project-category {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background: #e0e0e0;
+}
+.past-time {
+  padding: 5px 10px;
+}
+.project-type-info {
+  line-height: 20px;
+}
+.multi-freelancer-needed span {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: #008bcc;
+  color: #fff;
+  font-weight: bold;
+}
+.project-skills .skill-label {
+  padding: 5px 0px;
+  margin-right: 10px;
+}
+.project-skills .skill {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background: #e0e0e0;
+}
+.btn.disable-submit {
+  display: none;
+}

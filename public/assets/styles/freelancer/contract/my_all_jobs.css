@@ -1,0 +1,99 @@
+.view-section .title-section .title {
+  margin: 20px 0 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #666;
+}
+.view-section .title-section .page-link {
+  float: right;
+  font-size: 12px;
+  font-weight: bold;
+}
+.view-section .job-type {
+  margin: 20px 0 30px;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+  color: #666;
+}
+.view-section .small-box-section {
+  background: none repeat scroll 0 0 #F4F9ED;
+  border: 1px solid #DDDDDD;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.view-section .small-box-section .sub-section .title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+.view-section .small-box-section .sub-section .block {
+  margin-top: 40px;
+}
+.view-section .small-box-section .sub-section .block .contracts-desc {
+  color: #666;
+  padding: 0 0 5px;
+  font-size: 12px;
+}
+.view-section .small-box-section .sub-section .block .links {
+  padding: 0 0 5px;
+}
+.view-section .small-box-section .sub-section .block .links a {
+  font-size: 12px;
+  padding: 0 10px;
+  color: #008BCC;
+  text-decoration: none;
+}
+.view-section .small-box-section .sub-section .block .progress-view {
+  color: #666;
+  font-size: 12px;
+}
+.view-section .small-box-section .sub-section .block .box-links {
+  margin: 10px 0;
+}
+.view-section .small-box-section .sub-section .block .box-links a {
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #008BCC;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+.view-section .small-box-section .sub-section .divided-block {
+  border-bottom: 1px solid #DDDDDD;
+  padding: 10px;
+}
+.view-section .small-box-section .sub-section .divided-block div {
+  font-size: 12px;
+  color: #666;
+  height: 18px;
+  line-height: 18px;
+}
+.view-section .small-box-section .sub-section .divided-block a {
+  height: 18px;
+  line-height: 18px;
+  font-size: 12px;
+  text-decoration: none;
+}
+.view-section .small-box-section .sub-section .last-div-block {
+  padding: 10px;
+}
+.view-section .small-box-section .sub-section .last-div-block a {
+  height: 18px;
+  line-height: 18px;
+  font-size: 12px;
+  text-decoration: none;
+}
+.view-section .small-box-section .sub-section .divided-block.title {
+  font-size: 14px;
+  color: #888;
+}
+.view-section .client-info {
+  padding: 10px 0px;
+  line-height: 18px;
+}
+.view-section .client-info .links a {
+  text-decoration: none;
+}

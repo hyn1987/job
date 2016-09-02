@@ -1,0 +1,157 @@
+@less: '../../../common';
+
+@import '@{less}/_variables.less';
+@import '@{less}/_mixins.less';
+@import '@{less}/_plugins.less';
+
+.form-section .section{
+  margin-bottom: 30px;
+}
+.section-content {
+  padding: 5px 10px;
+  border: solid 1px #e8e8e8;
+
+  .object-item {
+    padding: 10px 0px;
+    border-top: solid 1px #e8e8e8;
+    margin: 0px;
+    &.first {
+      border-top: none;
+    }
+  }
+}
+
+.job-title {
+  color: @default-color;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.job-info {
+  text-align: center;
+  padding: 5px 0px;
+
+  .job-info-value{
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+
+.applicant-count {
+
+}
+
+.job-status {
+  padding: 15px 0px;
+  &.status-public {
+    color: @default-color;
+  }
+  &.status-private {
+    color: #e8c16d;
+  }
+}
+.job-action {
+  padding-top: 5px;
+}
+
+.all-job-postings {
+  margin: 15px 0px;
+}
+.not-hired, .empty-jobs {
+  font-size: 18px;
+  padding: 10px 0px;
+}
+
+.selectpicker.btn i {
+  margin-top: 2px;
+  margin-right: 10px;
+}
+
+.bootstrap-select .dropdown-menu {
+  .placeholder { display: none; }
+  .job-action-link {
+    padding: 10px 20px;
+    i {
+      margin-top: 2px;
+      margin-right: 10px;
+    }
+  }
+}
+
+.contracts .section-content {
+  padding: 0px;
+  .project-item {
+    padding: 10px 15px;
+    border-top: solid 1px #ddd;
+    border-bottom: solid 1px #ddd;
+    background: #f5f5f5;
+    &:first-child {
+      border-top: none;
+    }
+  }
+
+  .user-avatar {
+    position: absolute;
+  }
+
+  ul.contract-list {
+    padding: 0px;
+    margin: 0px;
+    .contract-item {
+      padding: 20px 10px 20px 10px;
+      border-bottom: solid 1px #ddd;
+      &:last-child {
+        border-bottom: none;
+      }
+
+      .contract-item-section {
+        margin-left: 74px;
+      }
+      .contract-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .contract-type {
+        line-height: 24px;
+        .price { 
+          font-weight: bold; 
+        }
+      }
+      .contractor-info {
+        line-height: 24px;
+        .contractor-name {
+          font-size: 16px;
+          font-weight: bold;
+        }
+      }
+      .contract-actions {
+        margin-top: 5px;
+        line-height: 24px;
+      }
+
+      .this-week-time {
+        line-height: 24px;
+      }
+      .this-week-total {
+        line-height: 24px;
+        font-size: 16px;
+      }
+      .workdiary-action {
+        line-height: 24px;
+        margin-top: 5px;
+        a.btn {
+          color: @default-color;
+          border: solid 1px #eee;
+        }
+      }
+    }
+
+    .contract-status {
+      margin: 5px 0px;
+      &.status-paused {
+        color: red;
+      }
+    }
+  }
+}

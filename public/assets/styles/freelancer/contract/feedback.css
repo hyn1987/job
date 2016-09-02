@@ -1,0 +1,38 @@
+.strong {
+  font-weight: bold;
+}
+.iblock {
+  display: inline-block;
+}
+.pointer {
+  cursor: pointer;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.page-content .page-content-section .title-section .title {
+  color: #008bcc;
+}
+.feedback-form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /*border: solid 1px #DDD;*/
+  background-color: #F5F5F5;
+}
+.feedback-form .form-body {
+  padding: 15px 20px;
+  border: solid 1px #ddd;
+}
+.feedback-form .btn-secion {
+  margin-top: 20px;
+}
+.feedback-form label {
+  font-size: 16px;
+}
+.feedback-form .radio-group {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

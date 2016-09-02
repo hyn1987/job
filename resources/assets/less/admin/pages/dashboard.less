@@ -1,0 +1,125 @@
+/**
+* Contract - List
+*/
+
+@import '../common/_includes.less';
+@import "../common/common_r.less";
+
+
+.page-body {}
+
+h3 {
+  &.section {
+    font-size: 18px;
+    color: #7689A0;
+    margin: -0.2em 0.8em 0.2em;
+    padding: 0.3em;
+    border-bottom: dashed 2px #C8D1DA;
+  }
+}
+
+.vmaps, .vmaps .map-inner {height: 300px;}
+
+.dropdown-menu.filter-menu {
+  min-width: 100px;
+  >.active>a {
+    background-color: #5F7386;
+    color: #fff;
+  }
+
+  a:hover {
+    background-color: #337ab7;
+    color: #fff;
+  }
+}
+
+
+/*
+.open-on-hover {
+	&.btn-toolbar {border-bottom: solid 1px #ddd;}
+	.btn-group {
+		
+		.dropdown-toggle {
+			box-shadow: none;
+			border: solid 1px #eee;
+			border-radius: 0;
+			background-color: #eee;
+		}
+
+		&.open .dropdown-toggle {
+			box-shadow: none;
+			border: solid 1px #ccc;
+			border-radius: 0;
+		}
+		
+		.dropdown-menu {
+			&:before, &:after {display: none;}
+			margin-top: -1px;
+		}
+	}
+}
+*/
+
+
+.pr-cats-list {
+	label {white-space: nowrap; padding: 0 5px;}
+}
+
+.__model {display: none;}
+
+
+
+.easy-pie-chart,
+.sparkline-chart {
+  text-align: center;
+}
+
+.sparkline-chart {
+  margin-top: 15px;
+  position: relative;
+  min-height: 87px;
+}
+
+.easy-pie-chart .number {
+  font-size: 14px !important;
+  font-weight: 300;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+}
+.easy-pie-chart .number canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sparkline-chart .number {
+  width: 100px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.sparkline-chart .title,
+.easy-pie-chart .title {
+  display: block;
+  text-align: center;
+  color: #333;
+  font-weight: 300;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.sparkline-chart .title:hover,
+.easy-pie-chart .title:hover {
+  color: #666;
+  text-decoration: none;
+}
+
+.sparkline-chart .title > i,
+.easy-pie-chart .title > i {
+  margin-top: 5px;
+}

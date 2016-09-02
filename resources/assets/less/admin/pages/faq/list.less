@@ -1,0 +1,285 @@
+/**
+* Faq List
+*/
+
+@import "../../common/_includes.less";
+.faq-sidebar-menu {
+  > ul {
+    padding-left: 20px;
+    > li {
+      padding: 10px 12px 10px 17px;
+      &.active {
+        background: #eaedee url('/assets/images/common/menu-selected-bg.png') 0px 0px repeat-y;
+      }
+      a {
+        font-weight: bold;
+        &:hover {
+          color: #008bcc;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  &.faq-sidebar-menu > ul {
+    padding-left: 0px;
+  }
+}
+.faq-list {
+  .dd-list {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    .dd-list {
+      padding-left: 30px;
+    }
+  }
+  .dd-item, .dd-empty, .dd-placeholder {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    min-height: 20px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .dd-handle {
+    position: absolute;
+    display: block;
+    background: none;
+    border: none;
+    width: 19px;
+    height: 19px;
+    margin: 0;
+    left: 21px;
+    top: 11px;
+    cursor: move;
+    padding: 0;
+    color: #c6c6c6;
+    text-decoration: none;
+    font-size: 16px;
+    z-index: 1;
+  }
+  .dd-collapse, .dd-expand {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+  .dd-item {
+    .faq-type {
+      vertical-align: middle;
+    }
+    .dd-item-header {
+      .type {
+        position: absolute;
+        border-radius: 50%;
+        right: -9px;
+        top: -6px;
+        width: 18px;
+        height: 18px;
+        opacity: 0.7;
+        filter: alpha(opacity=70);
+        text-align: center;
+        color: #fff;
+      }
+      .all {
+        background-color: #d9534f;
+      }
+      .buyer {
+        background-color: #5cb85c;
+      }
+      .freelancer {
+        background-color: #5bc0de;
+      }
+    }
+    > button {
+      position: absolute;
+      display: block;
+      cursor: pointer;
+      float: left;
+      top: 10px;
+      left: 6px;
+      width: 13px;
+      height: 18px;
+      margin: 0;
+      padding: 0;
+      text-indent: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      border: 0;
+      background: transparent;
+      line-height: 1;
+      text-align: center;
+      color: #c6c6c6;
+      outline: none;
+      font-weight: normal;
+      font-size: 20px;
+      z-index: 1;
+      &:before {
+        content: '\f105';
+        display: block;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        text-indent: 0;
+        font-family: 'FontAwesome'
+      }
+      &[data-action="collapse"]:before {
+        content: '\f107';
+      }
+    }
+    .btn {
+      border-radius: 0;
+      .user-select(none);
+      outline: none;
+    }
+    &.editing {
+      .edit-form {
+        position: absolute;
+        background: #ffffb1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        min-height: 200px;
+        padding: 12px 15px;
+        z-index: 100;
+        input {
+          background: none;
+          border: none;
+          border-bottom: 1px dotted #44b6ae;
+          outline: none;
+          width: 100%;
+          padding-right: 236px;
+          &.error {
+            border-color: red;
+          }
+        }
+        textarea {
+          background: none;
+          border: 1px dotted #44b6ae;
+          width: 100%;
+          height: 150px;
+          padding: 15px;
+          margin-top: 10px;
+          outline: none;
+          resize: none;
+        }
+        label {
+          margin: 0;
+          font-weight: normal;
+        }
+        .msgs {
+          
+        }
+        .title {
+          input {
+            font-size: 16px;
+            &.disabled {
+              color: #ccc;
+            }
+          }
+        }
+        .actions {
+          position: absolute;
+          top: 10px;
+          right: 15px;
+          background-color: #ffffb1;
+          padding: 5px 0 0 10px;
+        }
+      }
+    }
+  }
+  .dd-placeholder, .dd-empty {
+    margin: 5px 0;
+    padding: 0;
+    min-height: 30px;
+    background: #f2fbff;
+    border: 1px dashed #b6bcbf;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+  .dd-empty {
+    border: 1px dashed #bbb;
+    min-height: 100px;
+    background-color: #e5e5e5;
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+  }
+  .dd-dragel {
+    position: absolute;
+    pointer-events: none;
+    z-index: 9999;
+    > .dd-item .dd-handle {
+      margin-top: 0;
+    }
+  }
+  .dd-hover > .dd-handle {
+    background: #2ea8e5 !important;
+  }
+
+  /**
+   * Nestable Draggable Handles
+   */
+  .dd3-content {
+    position: relative;
+    display: block;
+    background: white;
+    border: none;
+    margin-bottom: 10px;
+    padding: 12px 15px;
+    color: #737373;
+    text-decoration: none;
+    font-weight: 400;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    .edit-category-box {
+      position: absolute;
+      background: #FFFFB1;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      padding: 12px 15px;
+      z-index: 1;
+      input {
+        background: none;
+        border: none;
+        border-bottom: 1px dotted #44b6ae;
+        outline: none;
+        width: 100%;
+        color: #44b6ae;
+        font-size: 16px;
+      }
+    }
+    .btn {
+      border-radius: 0;
+      outline: none;
+      .user-select(none);
+      > i {
+        margin-left: 5px;
+      }
+    }
+  }
+  .dd-dragel > .dd3-item > .dd3-content {
+    margin: 0;
+  }
+  .dd3-item > button {
+    margin-left: 30px;
+  }
+  h5 {
+    color: #44b6ae;
+    font-size: 16px;
+    margin: 0 0 0 30px;
+    > input {
+      border: 1px solid #ccc;
+      border-radius: 0;
+      width: 100%;
+      height: 23px;
+      outline: none;
+    }
+  }
+}

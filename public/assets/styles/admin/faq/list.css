@@ -1,0 +1,289 @@
+/**
+* Faq List
+*/
+/**
+ * Variables to use over whole less files.
+ */
+/**
+ * Variables to use over whole less files.
+ */
+/* Global */
+/**
+ * Mixins
+ */
+.faq-sidebar-menu > ul {
+  padding-left: 20px;
+}
+.faq-sidebar-menu > ul > li {
+  padding: 10px 12px 10px 17px;
+}
+.faq-sidebar-menu > ul > li.active {
+  background: #eaedee url('/assets/images/common/menu-selected-bg.png') 0px 0px repeat-y;
+}
+.faq-sidebar-menu > ul > li a {
+  font-weight: bold;
+}
+.faq-sidebar-menu > ul > li a:hover {
+  color: #008bcc;
+  text-decoration: none;
+}
+.faq-sidebar-menu.faq-sidebar-menu > ul {
+  padding-left: 0px;
+}
+.faq-list {
+  /**
+   * Nestable Draggable Handles
+   */
+}
+.faq-list .dd-list {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.faq-list .dd-list .dd-list {
+  padding-left: 30px;
+}
+.faq-list .dd-item,
+.faq-list .dd-empty,
+.faq-list .dd-placeholder {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  min-height: 20px;
+  font-size: 13px;
+  line-height: 20px;
+}
+.faq-list .dd-handle {
+  position: absolute;
+  display: block;
+  background: none;
+  border: none;
+  width: 19px;
+  height: 19px;
+  margin: 0;
+  left: 21px;
+  top: 11px;
+  cursor: move;
+  padding: 0;
+  color: #c6c6c6;
+  text-decoration: none;
+  font-size: 16px;
+  z-index: 1;
+}
+.faq-list .dd-collapse,
+.faq-list .dd-expand {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+.faq-list .dd-item .faq-type {
+  vertical-align: middle;
+}
+.faq-list .dd-item .dd-item-header .type {
+  position: absolute;
+  border-radius: 50%;
+  right: -9px;
+  top: -6px;
+  width: 18px;
+  height: 18px;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  text-align: center;
+  color: #fff;
+}
+.faq-list .dd-item .dd-item-header .all {
+  background-color: #d9534f;
+}
+.faq-list .dd-item .dd-item-header .buyer {
+  background-color: #5cb85c;
+}
+.faq-list .dd-item .dd-item-header .freelancer {
+  background-color: #5bc0de;
+}
+.faq-list .dd-item > button {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  float: left;
+  top: 10px;
+  left: 6px;
+  width: 13px;
+  height: 18px;
+  margin: 0;
+  padding: 0;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  border: 0;
+  background: transparent;
+  line-height: 1;
+  text-align: center;
+  color: #c6c6c6;
+  outline: none;
+  font-weight: normal;
+  font-size: 20px;
+  z-index: 1;
+}
+.faq-list .dd-item > button:before {
+  content: '\f105';
+  display: block;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  text-indent: 0;
+  font-family: 'FontAwesome';
+}
+.faq-list .dd-item > button[data-action="collapse"]:before {
+  content: '\f107';
+}
+.faq-list .dd-item .btn {
+  border-radius: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+}
+.faq-list .dd-item.editing .edit-form {
+  position: absolute;
+  background: #ffffb1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-height: 200px;
+  padding: 12px 15px;
+  z-index: 100;
+}
+.faq-list .dd-item.editing .edit-form input {
+  background: none;
+  border: none;
+  border-bottom: 1px dotted #44b6ae;
+  outline: none;
+  width: 100%;
+  padding-right: 236px;
+}
+.faq-list .dd-item.editing .edit-form input.error {
+  border-color: red;
+}
+.faq-list .dd-item.editing .edit-form textarea {
+  background: none;
+  border: 1px dotted #44b6ae;
+  width: 100%;
+  height: 150px;
+  padding: 15px;
+  margin-top: 10px;
+  outline: none;
+  resize: none;
+}
+.faq-list .dd-item.editing .edit-form label {
+  margin: 0;
+  font-weight: normal;
+}
+.faq-list .dd-item.editing .edit-form .title input {
+  font-size: 16px;
+}
+.faq-list .dd-item.editing .edit-form .title input.disabled {
+  color: #ccc;
+}
+.faq-list .dd-item.editing .edit-form .actions {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background-color: #ffffb1;
+  padding: 5px 0 0 10px;
+}
+.faq-list .dd-placeholder,
+.faq-list .dd-empty {
+  margin: 5px 0;
+  padding: 0;
+  min-height: 30px;
+  background: #f2fbff;
+  border: 1px dashed #b6bcbf;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.faq-list .dd-empty {
+  border: 1px dashed #bbb;
+  min-height: 100px;
+  background-color: #e5e5e5;
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+}
+.faq-list .dd-dragel {
+  position: absolute;
+  pointer-events: none;
+  z-index: 9999;
+}
+.faq-list .dd-dragel > .dd-item .dd-handle {
+  margin-top: 0;
+}
+.faq-list .dd-hover > .dd-handle {
+  background: #2ea8e5 !important;
+}
+.faq-list .dd3-content {
+  position: relative;
+  display: block;
+  background: white;
+  border: none;
+  margin-bottom: 10px;
+  padding: 12px 15px;
+  color: #737373;
+  text-decoration: none;
+  font-weight: 400;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.faq-list .dd3-content .edit-category-box {
+  position: absolute;
+  background: #FFFFB1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 12px 15px;
+  z-index: 1;
+}
+.faq-list .dd3-content .edit-category-box input {
+  background: none;
+  border: none;
+  border-bottom: 1px dotted #44b6ae;
+  outline: none;
+  width: 100%;
+  color: #44b6ae;
+  font-size: 16px;
+}
+.faq-list .dd3-content .btn {
+  border-radius: 0;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.faq-list .dd3-content .btn > i {
+  margin-left: 5px;
+}
+.faq-list .dd-dragel > .dd3-item > .dd3-content {
+  margin: 0;
+}
+.faq-list .dd3-item > button {
+  margin-left: 30px;
+}
+.faq-list h5 {
+  color: #44b6ae;
+  font-size: 16px;
+  margin: 0 0 0 30px;
+}
+.faq-list h5 > input {
+  border: 1px solid #ccc;
+  border-radius: 0;
+  width: 100%;
+  height: 23px;
+  outline: none;
+}

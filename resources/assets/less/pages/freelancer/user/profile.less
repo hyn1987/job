@@ -1,0 +1,254 @@
+@less: '../../../common';
+
+@import '@{less}/_variables.less';
+@import '@{less}/_mixins.less';
+@import '@{less}/_plugins.less';
+
+.freelancer-user-profile {
+  .page-wrapper {
+    padding-top: 20px;
+  }
+  .page-header {
+    margin-top: 0;
+  }
+}
+
+.freelancer-user-page {
+  font-size: 14px;
+
+  img.img-user-avatar {
+    .box-shadow(1px 1px 6px #303030);
+  }
+
+  .summary {
+    margin-bottom: 20px;
+
+    .name {
+      font-size:22px; 
+      font-weight:bold;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      padding-left: 0px;
+      &.items  {
+        li {
+          font-size: 16px;
+          margin-bottom: 8px;
+          
+          &.skill, &.country {
+            font-weight: bold;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+          }
+
+          &.timezone {
+            font-size: 14px;
+          }
+
+          &.skill-button {
+            font-weight: none;
+          }
+        }
+      }
+    }
+  }
+
+  .left-detail {
+    .overview {
+      margin: 30px 0;
+    }
+  }
+
+  .block {
+    border: 1px solid rgb(208, 243, 229); 
+    margin-bottom: 20px;
+    background-color: rgba(210, 235, 233, 0.24);
+    padding: 20px;
+
+    .block-header {
+      margin-bottom: 40px;
+      font-weight: bold;
+    }
+
+    .block-content {
+      margin-top: 20px;
+      border-bottom: 1px solid rgb(208, 243, 229);
+
+      &:last-child {
+        border-bottom-width: 0;
+      }
+
+      ul {
+        padding-left: 0px;
+        &.items {
+          li {
+            font-size: 14px;
+            margin-bottom: 10px;
+            
+            &.skill, &.country {
+              font-weight: bold;
+            }
+
+            &.timezone {
+              font-size: 14px;
+            }
+
+            &.skill-button {
+              font-weight: none;
+            }
+
+            &.desc {
+              font-style: italic;
+            }
+          }
+        }
+
+        &.table {
+          padding-left: 0px;
+          li {
+            font-size: 14px;
+            padding: 20px 20px;
+            border-bottom: solid 1px #ddd;
+            font-weight: bold;
+            
+            &.table-header {}
+            &.table-row {}
+          }
+
+          :last-child {
+            border-bottom-width: 0px;
+          }
+
+          button {
+            &.btn-custom {
+              color: #333;
+              background-color: #fff;
+              border: solid 1px #ccc;
+              //border-radius: 4px;
+            }
+
+            &.active {
+              color: #fff;
+              background-color: #337ab7;
+              border: solid 1px #2e6da4;
+              //border-radius: 4px;
+            }
+          }
+
+        }
+      }
+
+      .content {
+        margin-bottom: 30px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        .portfolio-img {
+          margin-top: 15px;
+          margin-bottom: 15px;
+        }
+
+        .portfolio-title {
+          margin-top: 15px;
+          margin-bottom: 15px;
+          font-weight: bold;
+        }
+      }
+
+      .cont {
+        border-bottom: solid 1px rgb(208, 243, 229);
+
+        &:last-child {
+          border-bottom-width: 0;
+        }
+        
+        .title {
+          font-size: 16px;
+          font-weight: normal;
+          margin-top:20px;
+          margin-bottom: 10px;
+
+          span {
+            padding-right: 10px;
+            padding-left: 10px;
+            border-right: solid 1px;
+          }
+
+          span:last-child {
+            border-width: 0;
+          }
+          span:first-child {
+            padding-left: 0;
+          }
+        }
+
+        .duration {
+          font-size: 14px;
+          margin-top:10px;
+          margin-bottom: 20px;
+        }
+      }
+      
+    }
+  }
+
+  .right-side {
+    margin-top: 20px;
+
+    .right-side-block-header {
+      margin-bottom: 14px;
+    }
+  }
+
+  .right-side-block {
+    margin-bottom: 40px;
+  }
+
+  .no-border {
+    border-width: 0;
+  }  
+
+  .no-background {
+    background-color: #fff;
+  }  
+
+  .right-align {
+    text-align: right;
+  }
+
+  .btn-wide {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 20px;    
+  }
+
+  .btn-section{
+    padding-left: 60px;
+    padding-right: 80px;
+  }
+
+  .border-bottom {
+    border-bottom: solid 1px rgb(208, 243, 229);
+  }
+}
+
+
+span.freelancer-total-score {
+  margin-left: 6px;
+}
+
+img.img-portfolio {
+  .box-shadow(1px 1px 3px #666);
+  max-width: 100%;
+}
+
+span.score {
+  margin-left: 10px;
+}
+
+.alert-no-found {
+  text-align: center;
+  font-size: 18px;
+}

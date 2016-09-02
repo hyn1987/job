@@ -1,0 +1,33 @@
+.strong {
+  font-weight: bold;
+}
+.iblock {
+  display: inline-block;
+}
+.pointer {
+  cursor: pointer;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.notification-item {
+  padding: 6px;
+  border-bottom: 1px solid #ccc;
+  background-color: #f8f8f8;
+}
+.notification-item.unread {
+  background-color: #fff;
+  cursor: pointer;
+}
+.notification-item .row div:last-child {
+  text-align: center;
+}
+.notification-item .row div:last-child .fa-close {
+  color: #ccc;
+  font-size: 15px;
+  float: right;
+  cursor: pointer;
+}

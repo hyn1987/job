@@ -1,0 +1,90 @@
+.view-section .section {
+  padding: 0px 25px;
+  margin-bottom: 20px;
+}
+.view-section .client-info {
+  margin-top: 10px;
+  padding: 10px 0px;
+  line-height: 18px;
+  border-top: solid 1px #ddd;
+}
+.view-section .client-info .sub-section {
+  padding: 10px 0px;
+}
+.close-mark {
+  font-size: 25px;
+  color: #D64635;
+  margin-left: 10px;
+}
+.contracts {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background: #e0e0e0;
+}
+.past-time {
+  padding: 5px 10px;
+}
+.link {
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.box-section {
+  line-height: 20px;
+  background: none repeat scroll 0 0 #F4F9ED;
+  border: 1px solid #DDDDDD;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.box-section .subtitle {
+  font-weight: bold;
+  font-size: 16px;
+  color: #23527C;
+  margin-bottom: 20px;
+}
+.box-section .content {
+  padding: 10px 0;
+  font-size: 16px;
+  color: #666;
+}
+.box-section .custom-btn {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.box-section .links {
+  font-size: 14px;
+  line-height: 24px;
+  height: 24px;
+}
+.box-section .small-font {
+  font-size: 12px;
+}
+.box-section .alert {
+  position: relative;
+}
+.box-section .alert.feedback:before {
+  content: 'Feedback About Me';
+  position: absolute;
+  left: 27px;
+  top: -16px;
+  font-size: 16px;
+  background-color: #fff;
+  padding: 5px 10px;
+  border: solid 1px #c5e0ec;
+  border-radius: 5px;
+}
+.paid-transactions {
+  font-size: 14px;
+  padding: 0px 15px;
+}
+#form_payment {
+  text-align: left;
+  margin: 20px 0px;
+}
+#form_payment .form-label {
+  margin: 10px 0px;
+}
+#form_payment .payment-amount-field {
+  width: 200px;
+}

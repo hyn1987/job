@@ -1,0 +1,120 @@
+/** From Metronic material design3 {{{ **/
+/** }}} **/
+.freelancer-page .title-section {
+  margin-bottom: 20px;
+}
+.freelancer-page .title-section .title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.freelancer-page .title-section .rss-link {
+  float: right;
+  vertical-align: bottom;
+  line-height: 1em;
+}
+.freelancer-page .title-section .rss-box {
+  display: hidden;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: -55px;
+  z-index: 3;
+  right: 15px;
+}
+.freelancer-page .title-section .rss-box .rss-url {
+  cursor: text;
+}
+.freelancer-page .clear-div {
+  clear: both;
+}
+.freelancer-page .title {
+  color: #337ab7;
+}
+.freelancer-page .box-header {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.freelancer-page .box-content {
+  margin-bottom: 20px;
+}
+.freelancer-page .left-side-box {
+  border-bottom: solid 1px #e8e8e8;
+  margin-bottom: 18px;
+}
+.freelancer-page .left-side-box:last-child {
+  border-bottom-width: 0;
+}
+.freelancer-page .result-side {
+  border: solid 1px #e8e8e8;
+  padding: 20px 20px 20px 20px;
+  background-color: #F4F9ED;
+}
+.freelancer-page .result-side span.job-count {
+  padding-top: 8px;
+}
+.freelancer-page .result-side ul.pagination {
+  margin: 0;
+}
+.freelancer-page .result-side .box-header {
+  font-size: 14px;
+}
+.freelancer-page .content-box {
+  border-bottom: 1px solid #e8e8e8;
+  padding: 4px 0;
+}
+.freelancer-page .content-box:last-child {
+  border-bottom-width: 0;
+}
+.freelancer-page .content-box .box-header,
+.freelancer-page .content-box .summary,
+.freelancer-page .content-box .desc,
+.freelancer-page .content-box .skills {
+  margin-bottom: 12px;
+}
+.freelancer-page .content-box .box-header span.type,
+.freelancer-page .content-box .summary span.type,
+.freelancer-page .content-box .desc span.type,
+.freelancer-page .content-box .skills span.type,
+.freelancer-page .content-box .box-header span.duration,
+.freelancer-page .content-box .summary span.duration,
+.freelancer-page .content-box .desc span.duration,
+.freelancer-page .content-box .skills span.duration,
+.freelancer-page .content-box .box-header span.price,
+.freelancer-page .content-box .summary span.price,
+.freelancer-page .content-box .desc span.price,
+.freelancer-page .content-box .skills span.price,
+.freelancer-page .content-box .box-header span.workload,
+.freelancer-page .content-box .summary span.workload,
+.freelancer-page .content-box .desc span.workload,
+.freelancer-page .content-box .skills span.workload,
+.freelancer-page .content-box .box-header span.posted-time,
+.freelancer-page .content-box .summary span.posted-time,
+.freelancer-page .content-box .desc span.posted-time,
+.freelancer-page .content-box .skills span.posted-time {
+  font-weight: bold;
+}
+.freelancer-page .content-box .box-header .title,
+.freelancer-page .content-box .summary .title,
+.freelancer-page .content-box .desc .title,
+.freelancer-page .content-box .skills .title {
+  padding-top: 12px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+.freelancer-page .header .title {
+  font-size: 16px;
+}
+.freelancer-page .header .align-right {
+  text-align: right;
+}
+.freelancer-page .title {
+  font-size: 18px;
+}
+.freelancer-page .budget-value-section {
+  color: #337ab7;
+  margin-top: 10px;
+}
+.freelancer-page .budget-value-section span {
+  font-weight: bold;
+}

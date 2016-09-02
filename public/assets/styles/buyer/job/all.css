@@ -1,0 +1,58 @@
+.form-section .section {
+  margin-bottom: 30px;
+}
+.section-content {
+  border: solid 2px #d8d8d8;
+  border-left: none;
+  border-right: none;
+}
+.section-content .object-item {
+  padding: 10px 0px;
+  border-top: solid 1px #e8e8e8;
+  margin: 0px;
+}
+.section-content .object-item.first {
+  border-top: none;
+}
+.section-content .object-item.closed {
+  background: #ddd;
+}
+.job-title {
+  color: #008bcc;
+  font-size: 18px;
+  font-weight: bold;
+}
+.job-info {
+  text-align: center;
+}
+.job-info .job-info-value {
+  font-weight: bold;
+}
+.job-status {
+  padding: 15px 0px;
+}
+.job-action {
+  padding-top: 5px;
+}
+.all-job-postings {
+  margin: 15px 0px;
+}
+.not-hired,
+.empty-jobs {
+  font-size: 18px;
+  padding: 10px 0px;
+}
+.selectpicker.btn i {
+  margin-top: 2px;
+  margin-right: 10px;
+}
+.bootstrap-select .dropdown-menu .placeholder {
+  display: none;
+}
+.bootstrap-select .dropdown-menu .job-action-link {
+  padding: 10px 20px;
+}
+.bootstrap-select .dropdown-menu .job-action-link i {
+  margin-top: 2px;
+  margin-right: 10px;
+}

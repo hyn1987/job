@@ -1,0 +1,88 @@
+.strong {
+  font-weight: bold;
+}
+.iblock {
+  display: inline-block;
+}
+.pointer {
+  cursor: pointer;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+#date_range {
+  width: 330px;
+  float: left;
+  margin: 0px 2px;
+}
+#date_range input {
+  font-size: 20px;
+  border: none;
+}
+.prev-unit,
+.next-unit {
+  float: left;
+  padding: 8px 10px;
+  transition: all 0.3s linear;
+}
+.prev-unit:hover,
+.next-unit:hover {
+  text-decoration: none;
+  background: #ddd;
+}
+.weekly-summary-section .section {
+  margin: 30px 0px;
+}
+.weekly-summary-section .section .section-title {
+  margin: 20px 0px;
+  padding: 0 0 10px;
+  font-size: 16px;
+  border-bottom: 1px solid #ddd;
+  color: #333;
+}
+.weekly-summary-section .section .section-content {
+  padding: 20px 0px;
+  background: #eee;
+}
+.weekly-summary-section .summary-section .info-line {
+  margin: 0px 0px 20px 0px;
+}
+.weekly-summary-section .summary-section .divider {
+  border-bottom: solid 1px #666;
+  height: 1px;
+  margin: 0px 15px;
+}
+.weekly-summary-section .summary-section .total-amount {
+  font-size: 24px;
+}
+.amount-display {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-align: center;
+}
+.nav-tabs {
+  border-bottom: 1px solid #AAA;
+}
+.nav-tabs li {
+  min-width: 25%;
+}
+.nav-tabs li a {
+  text-align: center;
+  min-height: 90px;
+  outline: none;
+}
+.manual-alert {
+  text-align: right;
+  color: #999;
+}
+.manual-alert strong {
+  color: #666;
+}
+.empty-data-section {
+  text-align: center;
+  margin-top: 15px;
+}

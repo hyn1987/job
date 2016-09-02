@@ -1,0 +1,374 @@
+.strong {
+  font-weight: bold;
+}
+.iblock {
+  display: inline-block;
+}
+.pointer {
+  cursor: pointer;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.workdiary-section {
+  padding: 0px 40px;
+}
+.row-contract {
+  margin-bottom: 30px;
+}
+.row-contract .select2-container .select2-selection--single {
+  height: 40px;
+}
+.row-contract span#select2-contract_selector-container {
+  font-size: 18px;
+  line-height: 40px;
+}
+.row-contract .select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 38px;
+}
+.col-timezone label.control-label {
+  line-height: 30px;
+  margin-left: 20px;
+}
+.col-calendar {
+  line-height: 36px;
+}
+.col-calendar .date-nav {
+  color: #666;
+}
+.col-calendar .date-nav.prev-date {
+  margin-right: 10px;
+}
+.col-calendar .date-nav.next-date {
+  margin-left: 10px;
+}
+.col-calendar .current-date {
+  margin-right: 6px;
+}
+.col-calendar .goto-today {
+  font-family: Arial;
+  margin-left: 10px;
+  color: rgba(0, 128, 0, 0.6);
+}
+.col-viewmode .btn-group-viewmode {
+  margin-right: 20px;
+}
+.col-viewmode .btn-mode {
+  color: #666;
+}
+.col-viewmode .btn-mode.active {
+  background-color: rgba(0, 128, 0, 0.6);
+  color: #fff;
+}
+.row-logmeta .info-group {
+  display: inline-block;
+  margin-right: 20px;
+}
+.row-logmeta .info-group .rect {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+  margin: 0 4px 2px 0;
+}
+.row-logmeta .info-group .rect-auto {
+  background-color: rgba(0, 128, 0, 0.6);
+}
+.row-logmeta .info-group .rect-manual {
+  background-color: rgba(255, 165, 0, 0.6);
+}
+.row-logmeta .info-group .rect-overlimit {
+  background-color: rgba(165, 42, 42, 0.6);
+}
+.row-logmeta .info-total-time {
+  margin-left: 20px;
+}
+.row-screenshots {
+  margin-top: 10px;
+}
+.row-screenshots ul.slots,
+.row-screenshots ul.list-slots {
+  padding: 0px;
+}
+.row-screenshots .no-items {
+  text-align: center;
+  padding: 80px 0px;
+  font-size: 18px;
+}
+.row-hour {
+  margin: 4px 0;
+  position: relative;
+}
+.ss-hour {
+  background-color: #ececec;
+  border-color: #cecece;
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  text-align: center;
+  width: 32px;
+  height: 158px;
+  padding: 56px 6px;
+  font-family: Arial, sans-serif;
+  float: left;
+}
+.ss-hour .num {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.ss-hour .ampm {
+  font-size: 12px;
+}
+.ss-col-right {
+  float: left;
+  position: relative;
+}
+.seg {
+  font-family: Arial;
+  position: absolute;
+  padding: 1px 8px;
+  background-color: rgba(0, 128, 0, 0.6);
+  color: #fff;
+  height: 22px;
+  word-break: break-word;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  top: 4px;
+}
+.seg.from0 {
+  left: 4px;
+}
+.seg.from1 {
+  left: 172px;
+}
+.seg.from2 {
+  left: 340px;
+}
+.seg.from3 {
+  left: 508px;
+}
+.seg.from4 {
+  left: 676px;
+}
+.seg.from5 {
+  left: 844px;
+}
+.seg.to0 {
+  right: 844px;
+}
+.seg.to1 {
+  right: 676px;
+}
+.seg.to2 {
+  right: 508px;
+}
+.seg.to3 {
+  right: 340px;
+}
+.seg.to4 {
+  right: 172px;
+}
+.seg.to5 {
+  right: 4px;
+}
+.seg.start {
+  border-top-left-radius: 11px;
+  border-bottom-left-radius: 11px;
+}
+.seg.end {
+  border-top-right-radius: 11px;
+  border-bottom-right-radius: 11px;
+}
+.seg.manual {
+  background-color: rgba(255, 165, 0, 0.6);
+}
+.seg.overlimit {
+  background-color: rgba(165, 42, 42, 0.6);
+}
+li.slot {
+  margin: 0 4px;
+  position: relative;
+}
+li.slot .score {
+  cursor: pointer;
+}
+li.slot .score .grey {
+  background-color: #ccc;
+  position: absolute;
+  z-index: 100;
+}
+li.slot .score .green {
+  background-color: rgba(0, 128, 0, 0.6);
+  position: absolute;
+  z-index: 110;
+}
+li.slot .score .borders {
+  position: absolute;
+  z-index: 120;
+}
+li.slot .score .a-slot {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  z-index: 140;
+}
+li.slot .pic {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 28px;
+  bottom: 20px;
+}
+li.slot .pic.has-pic {
+  right: 18px;
+  border: 1px dashed transparent;
+}
+li.slot .pic.manual {
+  right: 0;
+  background-color: rgba(255, 255, 0, 0.4);
+}
+li.slot .pic.no-pic {
+  border: 1px dashed #ccc;
+}
+li.slot .pic > a {
+  width: 142px;
+  display: block;
+}
+li.slot .pic img {
+  width: 142px;
+  height: 110px;
+}
+li.slot.overlimit .score .green {
+  background-color: rgba(165, 42, 42, 0.6);
+}
+.pane-grid li.slot {
+  float: left;
+  width: 160px;
+  height: 160px;
+}
+.pane-grid li.slot .info {
+  position: absolute;
+  left: 2px;
+  bottom: 0;
+}
+.pane-grid li.slot .score {
+  right: 0;
+  top: 0;
+  position: absolute;
+  width: 14px;
+  top: 28px;
+  bottom: 20px;
+}
+.pane-grid li.slot .grey {
+  right: 0;
+  width: 100%;
+  top: 1px;
+  height: 110px;
+}
+.pane-grid li.slot .green {
+  left: 0;
+  bottom: 1px;
+  right: 0;
+}
+.pane-grid li.slot .borders > .border-block {
+  width: 14px;
+  height: 11px;
+  border-top: 1px solid white;
+}
+.pane-list .ss-col-right {
+  width: 93%;
+}
+.pane-list li.slot {
+  height: 26px;
+  border-bottom: 1px solid #ccc;
+  margin-left: 10px;
+  padding-top: 2px;
+}
+.pane-list li.slot .info {
+  display: inline-block;
+  width: 70px;
+}
+.pane-list li.slot .score {
+  position: relative;
+  vertical-align: middle;
+  width: 110px;
+  height: 14px;
+  margin-right: 6px;
+}
+.pane-list li.slot .score .grey {
+  width: 100%;
+  height: 100%;
+}
+.pane-list li.slot .score .green {
+  width: 100%;
+  height: 100%;
+}
+.pane-list li.slot .score .borders {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.pane-list li.slot .score .borders > .border-block {
+  float: left;
+  display: inline-block;
+  width: 11px;
+  height: 100%;
+  border-right: 1px solid white;
+}
+.pane-list li.slot .active-window-wrp {
+  font-size: 0.85em;
+  margin-left: 6px;
+}
+.pane-list li.slot .active-window {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 600px;
+}
+.pane-list li.slot.manual .score {
+  cursor: default;
+}
+.pane-list li.slot.manual .score .borders > .border-block {
+  background-color: rgba(255, 165, 0, 0.6);
+  border-right: 1px solid transparent;
+}
+.modal .modal-body {
+  min-height: 500px;
+}
+.modal .screenshot {
+  margin-top: 4px;
+}
+.modal .screenshot a.link-full .ss-img {
+  max-width: 30%;
+  border: 1px solid #eee;
+}
+.modal .info-table {
+  margin-top: 6px;
+  width: 90%;
+}
+.modal .table-slot-act.two-col {
+  float: left;
+  width: 40%;
+  margin: 0 5%;
+}
+.modal .table-slot-act th {
+  text-align: center;
+  background-color: #f2f2f2;
+}
+.modal .table-slot-act > tbody > tr > td {
+  padding: 4px;
+}
+.contract-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.contract-term {
+  margin-left: 20px;
+}

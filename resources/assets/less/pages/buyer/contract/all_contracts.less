@@ -1,0 +1,62 @@
+@less: '../../../common';
+
+@import '@{less}/_variables.less';
+@import '@{less}/_mixins.less';
+@import '@{less}/_plugins.less';
+
+.form-section .section{
+  margin-bottom: 30px;
+}
+.section-content {
+  border: solid 2px #d8d8d8;
+  border-left: none;
+  border-right: none;
+
+ .object-item {
+    padding: 10px 0px;
+    border-top: solid 1px #e8e8e8;
+    margin: 0px;
+    &.first {
+      border-top: none;
+    }
+    &.closed {
+      background: #ddd;
+    }
+  }
+}
+
+.contractor-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+.contract-title {
+  color: @default-color;
+  font-size: 18px;
+  font-weight: bold;
+}
+.contract-type {
+  margin-top: 5px;
+}
+.period {
+  margin-top: 5px;
+}
+
+.contract-term {
+  margin-top: 5px;
+}
+
+.workdiary-action {
+  margin: 5px 0px;
+}
+
+.contract-status {
+  margin: 5px 0px;
+  &.status-paused {
+    color: red;
+  }
+}
+
+.empty-contract {
+  font-size: 18px;
+  padding: 10px 0px;
+}

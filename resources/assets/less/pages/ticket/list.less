@@ -1,0 +1,96 @@
+@less: '../../common';
+
+@import '@{less}/_variables.less';
+@import '@{less}/_mixins.less';
+@import '@{less}/_plugins.less';
+
+
+.title-section{
+  margin-bottom: 20px;
+  span.title {
+    color:#337ab7;
+    font-weight: bold;
+    font-size: 22px
+  }
+
+  .create-btn {
+    padding-top: 15px;
+  }
+} 
+
+.ticket-page {
+  .subject-section {
+  	border-bottom: solid 1px #ddd;
+    padding-bottom: 10px;
+
+    .subject, .status {
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+
+  .content-section {
+    padding-top: 10px;
+  }
+
+  ul {
+  	&.ticket-section, &.comment-section {
+  		padding-left: 0px;
+  	}
+
+  	li {
+  		margin-bottom: 5px;
+  	}
+  }
+
+  .h-color {
+    color:#337ab7;
+  }
+
+  .panel-title {
+  	font-size: 16px;
+  }
+
+  .font-bold {
+    font-weight:bold;
+  }
+
+  .toggle-section {
+    float:right !important;
+    padding-right: 25px;
+  }
+
+  .btn {
+    padding: 5px 5px;
+  }
+
+  .comment-row {
+    margin-left: 80px;
+    margin-right: 10px;
+    
+    padding-bottom:10px;
+    padding-top:10px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    border: solid 1px #fff;
+
+    :last-child {
+      margin-bottom: 0px;
+    }
+
+    &:hover {
+      border: solid 1px #ddd;
+      //background-color: #f5f5f5;
+      border-radius: 4px;
+    }
+  }
+
+  .no-bottom-margin {
+    margin-bottom: 0;
+  }
+}
+
+
+
+

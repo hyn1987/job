@@ -1,0 +1,55 @@
+@less: '../../../common';
+
+@import '@{less}/_variables.less';
+@import '@{less}/_mixins.less';
+@import '@{less}/_plugins.less';
+
+.no-applicants-message {
+  padding: 20px 10px;
+  font-size: 18px;
+}
+
+.applicant-row {
+  padding: 40px 0px;
+
+  .user-avatar {
+    position: absolute;
+  }
+  .applicant-info {
+    padding-left: 84px;
+    width: 100%;
+    .user-name {
+      font-size: 20px;
+      font-weight: bold;
+      color: @default-color;
+    }
+    .user-title {
+      font-size: 20px;
+      line-height: 32px;
+    }
+    .application-info {
+      margin-top: 10px;
+    }
+    .cover-letter {
+      margin-bottom: 10px;
+    }
+    .user-skill {
+      margin-top: 20px;
+    }
+
+    .action-section {
+      text-align: right;
+      .action-links {
+        margin-bottom: 10px;
+        a {
+          margin-left: 20px;
+          border: solid 1px #ccc;
+        }
+      }
+      .price {
+        font-size: 18px;
+        font-weight: bold;
+      }
+    }
+  }
+}

@@ -1,0 +1,215 @@
+/**
+ * Home Page
+ */
+
+@less: '../../common';
+
+@import '@{less}/_variables.less';
+@import '@{less}/_mixins.less';
+@import '@{less}/_plugins.less';
+
+.page {
+  .bg-primary {
+    padding: 86px 0 93px;
+    background-color: #008BCC;
+    .block-link {
+      border: 2px solid #fff;
+      padding: 8px 38px;
+      color: #fff;
+      display: inline-block;
+    }
+  }
+  p {
+    font-size: 16px;
+  }
+  /*About us styles*/
+  .about-icon {
+    margin: 50px auto 30px auto;
+    span:before{
+      color: #008BCC;
+      font-size: 50px;
+      border-bottom: 2px solid #e0e0e0;
+      padding: 10px;
+    }
+  }
+  
+  /*Our Team styles*/
+  .investors{
+    background-color: #f9f9f9;
+    h2{
+      padding: 79px 0 193px;
+      font-size: 40px;
+      color: #494949;
+      max-width: 1280px;
+      background-position: 0 197px;
+      background-repeat: no-repeat;
+      background-image: url("/assets/images/about/team/investor-logos.jpg");
+      background-size: 100%;
+      letter-spacing: -0.3px;
+      font-family: 'Gotham Bold';
+    }
+    
+  }
+  .top-about-menu{
+    max-width: 960px;
+    border-bottom: 1px solid #e0e0e0;
+    margin: 0 auto 50px auto;
+    height: 100%;
+    line-height: 68px;
+    text-align: center;
+    ul{
+      margin: 0 20px 0 0;
+      padding: 0;
+      display: inline-block;
+      white-space: nowrap;
+      .top-about-item {
+        padding: 0;
+        margin: 0 20px;
+        display: inline-block;
+        position: relative;
+        &.active:after{
+          content: "";
+          height: 4px;
+          border-bottom: 4px solid #008BCC;
+          position: absolute;
+          bottom: -1px;
+          left: 0;
+          width: 100%;
+        }
+        &:hover:after{
+          content: "";
+          height: 4px;
+          border-bottom: 4px solid #008BCC;
+          position: absolute;
+          bottom: -1px;
+          left: 0;
+          width: 100%;
+        }
+        a:hover {
+          text-decoration: none;
+        }
+      }
+    }
+      
+  }
+  
+  h2 {
+    font-family: 'myriadpro-boldcond';
+    font-size: 48px;
+    margin: 0;
+    text-shadow: 0 0 3px #bbb;
+    &.on-bg {
+      background: rgba(0, 0, 0, .15);
+      margin-top: 150px;
+      font-size: 56px;
+      text-transform: uppercase;
+      text-shadow: 1px 1px 1px black;
+    }
+  }
+  .desc {
+    margin-top: 20px;
+    font-family: 'myriadpro-cond';
+    font-size: 24px;
+    color: #555;
+  }
+  .team {
+    .team-img {
+      width: 148px;
+      height: 148px;
+    }
+    p:last-child {
+      margin-bottom: 75px;
+    }  
+  }
+  
+  .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .img-circle {
+    border-radius: 50%;
+  }
+  .stephane {
+    background: url('/assets/images/about/team/stephane-kasriel.jpg') no-repeat;
+  }
+  .brian {
+    background: url('/assets/images/about/team/brian-levey.jpg') no-repeat;
+  }
+  .thomas {
+    background: url('/assets/images/about/board/thomas-layton.jpg') no-repeat;
+  }
+  .betsey {
+    background: url('/assets/images/about/board/betsey-nelson.jpg') no-repeat;
+  }
+  .about-bg {
+    background: url('/assets/images/about/about-us.jpg') no-repeat;
+    width: 100%;
+    height: 17.3vw;
+    max-height: 330px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    margin-top: 50px;
+    margin-bottom: 78px;
+
+  }
+  .about-bottom {
+    background-color: #008BCC;
+    color: #fff;
+    padding: 66px 0 75px 0;
+    .block-link {
+      border: 2px solid #fff;
+      padding: 8px 38px;
+      color: #fff;
+      display: inline-block;
+    }
+    strong {
+      color: #00C2DC;
+      font-size: 40px;
+      position: relative;
+      display: inline-block;
+      margin-bottom: 27px;
+    }
+    strong:after {
+      display: inline-block;
+      position: absolute;
+      content: "";
+      top: 100%;
+      left: 50%;
+      margin-top: 7px;
+      margin-left: -40px;
+      width: 80px;
+      border-bottom: 2px solid #fff;
+    }
+    p {
+      text-transform: uppercase;
+      font-size: 14px;
+      line-height: 18px;
+      margin-bottom: 0;
+    }
+    
+  }
+  /*Press Page */
+  .media-resource{
+    background-color: #f9f9f9;
+    h2{
+      padding-top: 50px;
+      padding-bottom: 75px;
+      font-size: 40px;
+      color: #494949;
+      max-width: 1280px;
+      font-family: 'Gotham Bold';
+    }
+    
+  }
+  .press-releases {
+    article {
+      height: 350px;
+      padding: 1.59091rem 1.59091rem 1.81818rem 1.81818rem;
+      border: 1px solid #e0e0e0;
+      margin-bottom: 30px;
+      position: relative;
+    }
+  }
+}

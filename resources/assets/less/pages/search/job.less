@@ -1,0 +1,130 @@
+@less: '../../common';
+
+@import '@{less}/_variables.less';
+@import '@{less}/_mixins.less';
+@import '@{less}/_plugins.less';
+
+.freelancer-page {
+  
+  .title-section {
+    margin-bottom: 20px;
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+
+    }
+    .rss-link {
+      float: right;
+      vertical-align: bottom;
+      line-height: 1em;
+    }
+    .rss-box {
+      display: hidden;
+      padding: 10px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      position: absolute;
+      top: -55px;
+      z-index: 3;
+      right: 15px;
+      
+      .rss-url {
+        cursor: text;  
+      }
+    }
+  }
+
+  .clear-div{
+    clear:both;
+  }
+  
+  .title {
+    color:#337ab7;
+  }
+
+  .box-header {
+    font-size: 16px;
+    margin-bottom:20px;
+  }
+
+  .box-content {
+    margin-bottom:20px;
+  }
+
+  .left-side-box {
+    border-bottom: solid 1px #e8e8e8;
+    margin-bottom: 18px;
+
+    &:last-child {
+      border-bottom-width: 0;
+    }
+  }
+
+  .result-side {
+    border: solid 1px #e8e8e8;
+    padding: 20px 20px 20px 20px;
+    background-color: #F4F9ED;
+
+    span.job-count {
+      padding-top: 8px;
+    }
+
+    ul.pagination {
+      margin: 0;
+    }
+
+    .box-header {
+      font-size: 14px;
+    }
+  }
+
+  .content-box {
+    border-bottom: 1px solid #e8e8e8;  
+    padding: 4px 0;
+
+    &:last-child {
+      border-bottom-width: 0;   
+    }
+
+    .box-header, .summary, .desc, .skills {
+      margin-bottom: 12px;
+
+      span {
+        &.type, &.duration, &.price, &.workload, &.posted-time {
+          font-weight: bold;
+        }
+      }
+      .title {
+        padding-top: 12px;
+        padding-bottom: 10px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .header {
+    .title {
+      font-size: 16px;
+    }
+    .align-right {
+      text-align: right;
+    }
+  }
+
+   .title {
+    font-size: 18px;
+  }
+
+  .budget-value-section {
+      color:#337ab7;
+      margin-top:10px;
+
+    span {      
+      font-weight: bold;
+    }
+  }
+}
+
+
+
+

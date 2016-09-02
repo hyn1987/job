@@ -1,0 +1,116 @@
+@less: '../../../common';
+
+@import '@{less}/_variables.less';
+@import '@{less}/_mixins.less';
+@import '@{less}/_plugins.less';
+
+.view-section {
+  .title-section{
+    .title{
+      margin: 20px 0 10px;
+      font-size: 22px;
+      font-weight: bold;
+      color: #666;
+    }
+    .page-link{
+      float: right;
+      font-size: 12px;
+      font-weight: bold;
+    }
+  }
+  .job-type{
+    margin: 20px 0 30px;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    color: #666;
+  }
+
+  .small-box-section{
+    background: none repeat scroll 0 0 #F4F9ED;
+    border: 1px solid #DDDDDD;
+    padding: 10px;
+    margin-bottom: 20px;
+    .sub-section{
+      .title{
+        font-size: 16px;
+        font-weight: bold;
+        color: #333;
+      }
+      .block{
+        margin-top: 40px;
+        .contracts-desc{
+          color: #666;
+          padding: 0 0 5px;
+          font-size: 12px;
+        }
+        .links{
+          padding: 0 0 5px;
+          a{
+            font-size: 12px;
+            padding: 0 10px;
+            color: #008BCC;
+            text-decoration: none;
+          }
+          span{
+
+          }
+        }
+        .progress-view{
+          color: #666;
+          font-size: 12px;
+        }
+        .box-links{
+          margin: 10px 0;
+          a{
+            padding: 10px;
+            border: 1px solid #ddd;
+            background: #008BCC;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 12px;
+          }
+        }
+      }
+      .divided-block{
+        border-bottom: 1px solid #DDDDDD;
+        padding: 10px;
+        div{
+          font-size: 12px;
+          color: #666;
+          height: 18px;
+          line-height: 18px;
+        }
+        a{
+          height: 18px;
+          line-height: 18px;
+          font-size: 12px;
+          text-decoration: none;
+        }
+      }
+      .last-div-block{
+        padding: 10px;
+        a{
+          height: 18px;
+          line-height: 18px;
+          font-size: 12px;
+          text-decoration: none;
+        }
+      }
+      .divided-block.title{
+        font-size: 14px;
+        color: #888;
+      }
+    }
+  }
+
+  .client-info {
+    padding: 10px 0px;
+    line-height: 18px;
+    .links a{
+      text-decoration: none;
+    }
+  }
+}
